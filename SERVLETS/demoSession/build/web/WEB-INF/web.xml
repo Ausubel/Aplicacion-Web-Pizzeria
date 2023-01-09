@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" xlmns="http://java.sum">
+    <servlet>
+        <servlet-name> Session </servlet-name>
+        <servlet-class>
+            controller.ServletSession
+        </servlet-class>
+    </servlet>
+    
+    <servlet-mapping>
+        <servlet-name>Cliente</servlet-name>
+        <url-pattern>/Cliente</url-pattern>
+    </servlet-mapping>
+    <session-config> 
+        <session-timeout>30 </session-timeout>
+    </session-config>
+    
+    <welcome-file-list>
+        <welcome-file> inde.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
+
+
+
