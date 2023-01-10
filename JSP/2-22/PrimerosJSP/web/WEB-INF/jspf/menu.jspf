@@ -1,0 +1,24 @@
+<%-- any content can be specified here e.g.: --%>
+<%@ page pageEncoding="UTF-8" %>
+<table border="0" cellpadding="6">
+    <tr>
+        <td>
+            <a href="directivaInclude01.jsp">
+                Documento 1
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="directivaInclude02.jsp">
+                Documento 2
+            </a>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <a href="index.jsp">
+                Home
+            </a>
+        </td>
+    </tr>
