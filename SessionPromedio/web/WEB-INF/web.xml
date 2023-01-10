@@ -4,13 +4,13 @@
     <servlet>
         <servlet-name> Session </servlet-name>
         <servlet-class>
-            controller.ServletLine
+            controller.ServletMuestraRegistros
         </servlet-class>
     </servlet>
     
     <servlet-mapping>
-        <servlet-name>Line</servlet-name>
-        <url-pattern>/Line</url-pattern>
+        <servlet-name>registro</servlet-name>
+        <url-pattern>/registro</url-pattern>
     </servlet-mapping>
     <session-config> 
         <session-timeout>30 </session-timeout>

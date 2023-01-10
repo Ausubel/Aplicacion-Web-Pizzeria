@@ -12,7 +12,7 @@
         <title> Captura de datos</title>
     </head>
     <body>
-        <%@page import="controller.registro" %>
+        <%@page import="controller.ServletMuestraRegistros" %>
         <h1>Hola! proporciona tus datos: </h1>
         <form action="registro" method="post">
             <table cellspacing="3" cellpadding="3" border="1">
