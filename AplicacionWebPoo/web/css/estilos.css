@@ -1,0 +1,133 @@
+h1{
+    color: red;
+    text-align: center;
+}
+
+body{
+    height: 90px;
+    position: relative;
+    margin: 20px auto; 
+    padding-bottom: 3em;
+}
+
+.enlaces{
+    font-size: 17px;
+    color: #efefef;
+    text-decoration: none;
+}
+
+.enlaces:hover{
+    font-size: 17px;
+    color: #efefef;
+    text-decoration: underline;
+}
+
+#texto-logo-footer{
+    color: #fff;
+    position: relative;
+}
+
+/*PIE DE PAGINA*/
+.piePagina{
+    width: 100%;
+    height: 480px;
+    margin: 0 auto;
+    background-color: #111d28;
+    padding: 0.3em 0px;
+    bottom: 0;
+    position: sticky;
+}
+
+.piePagina .grupo1{
+    width: 100%;
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-gap: 75px; /*Para que tengan un margen de las columnas*/
+    padding: 20px 0px; /*arriba, costado*/
+}
+
+.piePagina .grupo1 .box .seccion-descripcion{
+    display: flex;
+}
+.piePagina .grupo1 .box .seccion-descripcion img{
+    height: 100px;
+    width: 100px;
+    margin-bottom: 0px 10px;
+    background: rgba(5, 7, 12, 0.75),
+    url(./imagenes/logoPizza.png) 
+}
+
+.piePagina .grupo1 .box .seccion-descripcion #texto-logo{
+    position: relative;
+    display: inline-block;
+    color: #efefef;
+    margin-bottom: 10px;
+    padding: 10px 20px 0px 40px;
+    font-size: 22px;
+}
+
+.piePagina .grupo1 .box h3{
+    color: #fff;
+    margin-bottom: 25px;
+    padding: 0 20px 5px;
+    font-size: 18px;
+    text-align:left;
+}
+
+.piePagina .grupo1 .box p{
+    color: #efefef;
+    margin-top: 0px;
+    text-align: justify;
+    padding: 0px 20px 0px 40px;
+    font-size: 16px;
+}
+
+.piePagina .grupo1 .box .redes-sociales {
+    padding: 0px 4px;
+    line-height: 10px;
+    margin-right: 26px;
+    margin-left: 0px;
+    color: #efefef;
+    justify-content: center;
+    display: flex;
+    font-size: 24px;
+}
+
+/*Algunas propiedas para los iconos de redes sociales*/
+.icon-facebook-circled{
+    color: #efefef;
+}
+
+.icon-instagram{
+    color: #efefef;
+}
+
+.icon-twitter-1{
+    color: #efefef;
+}
+.piePagina .grupo1 .box .formas-de-pago img{
+    display: inline-block;
+    margin-left: 8px;
+    padding: 3px 0px 2px 11px;
+    width: 41px;
+    height: 30px;
+    justify-content: center;
+}
+
+.titulos-footer{
+    color: #efefef;
+    margin-top: 60px;
+    text-align: justify;
+    padding: 0 20px 0 40px;
+    font-size: 15px;
+}
+
+.piePagina .grupo2{
+    padding: 22px 10px;
+    text-align: center;
+    color: #efefef;
+    font-size: 20px;
+    bottom: 0;
+}
