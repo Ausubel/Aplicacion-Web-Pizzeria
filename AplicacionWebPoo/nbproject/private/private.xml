@@ -3,12 +3,10 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/CASMA/Documents/NetBeansProjects/AplicacionWebPoo/web/index.html</file>
-            <file>file:/C:/Users/CASMA/Documents/NetBeansProjects/AplicacionWebPoo/web/footer.jsp</file>
-            <file>file:/C:/Users/CASMA/Documents/NetBeansProjects/AplicacionWebPoo/src/java/controller/LoginServlet.java</file>
-            <file>file:/C:/Users/CASMA/Documents/NetBeansProjects/AplicacionWebPoo/web/login.jsp</file>
-            <file>file:/C:/Users/CASMA/Documents/NetBeansProjects/AplicacionWebPoo/web/script.js</file>
-            <file>file:/C:/Users/CASMA/Documents/NetBeansProjects/AplicacionWebPoo/web/index.jsp</file>
+            <file>file:/C:/Users/johan/Desktop/POO2-EXPOSICION/AplicacionWebPoo/web/header_scripts.js</file>
+            <file>file:/C:/Users/johan/Desktop/POO2-EXPOSICION/AplicacionWebPoo/web/header_style.css</file>
+            <file>file:/C:/Users/johan/Desktop/POO2-EXPOSICION/AplicacionWebPoo/web/header_index.html</file>
+            <file>file:/C:/Users/johan/Desktop/POO2-EXPOSICION/AplicacionWebPoo/web/index.jsp</file>
         </group>
     </open-files>
 </project-private>
