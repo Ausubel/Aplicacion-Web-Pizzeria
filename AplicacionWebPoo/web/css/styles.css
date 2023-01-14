@@ -1,0 +1,164 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: content-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: sans-serif;
+  font-family: "Open Sans", sans-serif;
+  background-size: cover;
+  background-repeat: repeat;
+  background-position: center;
+  background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)),
+    url(/web/imagenes/pizzafondo.jpg);
+}
+
+.articulos {
+  max-width: 2000px;
+  margin: auto;
+  position: relative;
+  padding-top: 140px;
+  z-index: 1;
+}
+.cards {
+  width: 100%;
+  max-width: 1800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+}
+.cards .card {
+  width: 330px;
+  height: 450px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  /*border-color: #4400ff;
+    border-width: 2px;
+    border-style: solid;*/
+  position: relative;
+  background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5));
+}
+.cards .card img {
+  margin: 10px 20px 0px 40px;
+  padding: 10px 20px 0px 40px;
+  display: block;
+  height: 250px;
+  width: 200px;
+}
+.image #details {
+  position: absolute;
+  align-items: center;
+  top: 90px;
+  left: 70px;
+  width: 50%;
+  display: none;
+}
+.cards .card .image #details p {
+  color: rgb(255, 255, 255);
+}
+.cards .card .image #details h4 {
+  color: rgb(255, 255, 255);
+}
+
+.cards .card h5 {
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.cards .card p {
+  color: #ffffff;
+}
+.articulos .cards .card .icon-links {
+  border-color: beige;
+  width: 100px;
+  height: 100px;
+}
+.articulos .cards .card .icon-links i {
+  margin-left: 30px;
+  color: #ffffff;
+  float: left;
+}
+.articulos .cards .card .icon-links .buy i {
+  position: absolute;
+  left: 10px;
+  top: 400px;
+}
+.articulos .cards .card .icon-links .view i {
+  position: absolute;
+  left: 60px;
+  top: 400px;
+}
+.articulos .cards .card .icon-links .like i {
+  position: absolute;
+  left: 110px;
+  top: 400px;
+}
+
+.articulos .cards .card {
+  z-index: 1;
+}
+.articulos .cards .card .card-body::before {
+  z-index: -1;
+}
+.articulos .cards .card .card-body::after {
+  z-index: -1;
+}
+
+.cards .card {
+  width: 330px;
+  height: 450px;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 20px;
+  text-align: center;
+  /*border-color: #4400ff;
+    border-width: 2px;
+    border-style: solid;*/
+  position: relative;
+  background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5));
+}
+
+/*.articulos .cards .card .card-body{
+    
+	position: relative;
+}*/
+
+.articulos .cards .card .card-body::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  box-sizing: border-box;
+  height: 0;
+  border-bottom: 3px solid transparent;
+  border-left: 3px solid transparent;
+  transition: all 0.8s ease;
+}
+.articulos .cards .card .card-body::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0;
+  box-sizing: border-box;
+  height: 0;
+  border-top: 3px solid transparent;
+  border-right: 3px solid transparent;
+  transition: all 0.8s ease;
+}
+.articulos .cards .card:hover .card-body::after,
+.articulos .cards .card:hover .card-body::before {
+  border-color: rgb(255, 255, 255);
+  width: 100%;
+  height: 100%;
+}

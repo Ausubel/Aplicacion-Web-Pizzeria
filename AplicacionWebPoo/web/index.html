@@ -1,210 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="/web/css/header_style.css">
+    <link rel="stylesheet" type="text/css" href="/web/css/styles.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 </head>
+
 <body>
+    <header class="header">
+        <div class="container_header logo-nav-container">
+            <a href="#"> LOGO </a>
+            <span class="menu-icon">Ver menú</span>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Nosotros</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
     <section class="articulos">
-        <div class="container">
-        
-            
-            <div class="cards">
-                <div class="card">
-                    <div class="image">
-                        <img src="imagenes/1.png" id="hide-image">
-                        <div id="details">
-                            <h4>Ingredientes:</h4>
-                            <p>Lechuga<p>
-                            <p>Tomate</p>     
-                            <p>Tomate</p>
-                            <p>Queso</p>
-                            <p>Peperoni</p>
-                                    
-                        </div> 
-                    </div>                   
-                         
-                    <div class="card-body">
-                        <h5 class="card-title" id="titulo">Menu Familiar</h5>
-                        <p class="card-text" id="info">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        
-                    </div>
-                    <div class="icon-links">
-                        <div class="buy">
-                            <a href="#" ><i class="fa-solid fa-cart-shopping"></i></a>
-                        </div>
-                        <div class="view">
-                            <a href="javascript:void(0);" onclick="mostrar()" id="hide-button"><i class="fa-sharp fa-solid fa-circle-info"></i></a>           
-                        </div>
-                        <div class="like">
-                            <a href="#"><i class="fa-solid fa-heart"></i></a>
-                        </div>
 
-                        
-                        
-                        
+        <div class="cards">
+            <div class="card">
+                <div class="image">
+                    <img src="imagenes/1.png" id="hide-image">
+                    <div id="details">
+                        <h4>Ingredientes:</h4>
+                        <p>Lechuga</p>
+                        <p>Tomate</p>
+                        <p>Tomate</p>
+                        <p>Queso</p>
+                        <p>Peperoni</p>
                     </div>
                 </div>
-        
-                <div class="card">
-               
-                    <img src="imagenes/2.png" alt="...">
-                           
-                    <div class="card-body">
-                        <h5 class="card-title">Menu Genio</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        
-                    </div>
-                    <div class="icon-links">
-                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                        <a href="#"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
-                        <a href="#"><i class="fa-solid fa-heart"></i></a>
-                    </div>
+
+                <div class="card-body">
+                    <h5 class="card-title" id="titulo">Menu Familiar</h5>
+                    <p class="card-text" id="info">Some quick example text to build on the card title and make up
+                        the bulk of the card's content.</p>
                 </div>
-        
-                <div class="card">
-                   
-                    <img src="imagenes/3.jpg" alt="...">
-                       
-                    <div class="card-body">
-                        <h5 class="card-title">Combo Nuggets</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        
-                    </div>
-                    <div class="icon-links">
+                <div class="icon-links">
+                    <div class="buy">
                         <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                        <a href="#"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
+                    </div>
+                    <div class="view">
+                        <a href="javascript:void(0);" onclick="mostrar()" id="hide-button"><i
+                                class="fa-sharp fa-solid fa-circle-info"></i></a>
+                    </div>
+                    <div class="like">
                         <a href="#"><i class="fa-solid fa-heart"></i></a>
                     </div>
-                </div>
-        
-                <div class="card">
-             
-                    <img src="imagenes/4.jpg" alt="...">
-                          
-                    <div class="card-body">
-                        <h5 class="card-title">Puré Familiar</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        
-                    </div>
-                    <div class="icon-links">
-                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                        <a href="#"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
-                        <a href="#"><i class="fa-solid fa-heart"></i></a>
-                    </div>
-                </div>
-        
-                <div class="card">
-        
-                    <img src="imagenes/5.png" alt="...">
-                 
-                    <div class="card-body">
-                        <h5 class="card-title">Twister Americano</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        
-                    </div>
-                    <div class="icon-links">
-                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                        <a href="#"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
-                        <a href="#"><i class="fa-solid fa-heart"></i></a>
-                    </div>
-                </div>
-        
-                <div class="card">
-                  
-                    <img src="imagenes/6.png" alt="...">
-                    
-                    <div class="card-body">
-                        <h5 class="card-title">Combo Burger Tasayco</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        
-                    </div>
-                    <div class="icon-links">
-                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                        <a href="#"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
-                        <a href="#"><i class="fa-solid fa-heart"></i></a>
-                    </div>
-                </div>
-        
-                <div class="card">
-          
-                    <img src="imagenes/7.jpg" alt="...">
-                    
-                    <div class="card-body">
-                        <h5 class="card-title">Combo Bugget</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        
-                    </div>
-                    <div class="icon-links">
-                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                        <a href="#"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
-                        <a href="#"><i class="fa-solid fa-heart"></i></a>
-                    </div>
-                </div>
-        
-                <div class="card">
-         
-                    <img src="imagenes/8.jpg" alt="...">
-                      
-                    <div class="card-body">
-                        <h5 class="card-title">Cold Black</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        
-                    </div>
-                    <div class="icon-links">
-                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                        <a href="#"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
-                        <a href="#"><i class="fa-solid fa-heart"></i></a>
-                    </div>
-                </div>
-        
-                <div class="card">
-                  
-                    <img src="imagenes/9.jpg" alt="...">
-                           
-                    <div class="card-body">
-                        <h5 class="card-title">Pizza queso</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        
-                    </div>
-                    <div class="icon-links">
-                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                        <a href="#"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
-                        <a href="#"><i class="fa-solid fa-heart"></i></a>
-                    </div>
-                </div>
-        
-                <div class="card">
-                    
-                    <img src="imagenes/10.png" alt="...">
-                            
-                    <div class="card-body">
-                        <h5 class="card-title">American Express</h5>
-                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                        
-                    </div>
-                    <div class="icon-links">
-                        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
-                        <a href="#"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
-                        <a href="#"><i class="fa-solid fa-heart"></i></a>
-                        
-                    </div>
+
+
+
+
                 </div>
             </div>
-    
-            
-    
-          
+
+            <div class="card">
+
+                <img src="imagenes/2.png" alt="...">
+
+                <div class="card-body">
+                    <h5 class="card-title">Menu Genio</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+
+                </div>
+                <div class="icon-links">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="#"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                </div>
+            </div>
+
+            <div class="card">
+
+                <img src="imagenes/3.jpg" alt="...">
+
+                <div class="card-body">
+                    <h5 class="card-title">Combo Nuggets</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+
+                </div>
+                <div class="icon-links">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="#"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                </div>
+            </div>
+
+            <div class="card">
+
+                <img src="imagenes/4.jpg" alt="...">
+
+                <div class="card-body">
+                    <h5 class="card-title">Puré Familiar</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+
+                </div>
+                <div class="icon-links">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="#"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                </div>
+            </div>
+
+            <div class="card">
+
+                <img src="imagenes/5.png" alt="...">
+
+                <div class="card-body">
+                    <h5 class="card-title">Twister Americano</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+
+                </div>
+                <div class="icon-links">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="#"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                </div>
+            </div>
+
+            <div class="card">
+
+                <img src="imagenes/6.png" alt="...">
+
+                <div class="card-body">
+                    <h5 class="card-title">Combo Burger Tasayco</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+
+                </div>
+                <div class="icon-links">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="#"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                </div>
+            </div>
+
+            <div class="card">
+
+                <img src="imagenes/7.jpg" alt="...">
+
+                <div class="card-body">
+                    <h5 class="card-title">Combo Bugget</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+
+                </div>
+                <div class="icon-links">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="#"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                </div>
+            </div>
+
+            <div class="card">
+
+                <img src="imagenes/8.jpg" alt="...">
+
+                <div class="card-body">
+                    <h5 class="card-title">Cold Black</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+
+                </div>
+                <div class="icon-links">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="#"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                </div>
+            </div>
+
+            <div class="card">
+
+                <img src="imagenes/9.jpg" alt="...">
+
+                <div class="card-body">
+                    <h5 class="card-title">Pizza queso</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+
+                </div>
+                <div class="icon-links">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="#"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+                </div>
+            </div>
+
+            <div class="card">
+
+                <img src="imagenes/10.png" alt="...">
+
+                <div class="card-body">
+                    <h5 class="card-title">American Express</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                        the card's content.</p>
+
+                </div>
+                <div class="icon-links">
+                    <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+                    <a href="#"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
+                    <a href="#"><i class="fa-solid fa-heart"></i></a>
+
+                </div>
+            </div>
         </div>
     </section>
-    
-    <script src="javascript.js"></script>
 
-  
+    <script src="/web/scripts/display.js"></script>
+
+
 </body>
+
 </html>
