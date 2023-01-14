@@ -23,7 +23,7 @@ body {
   max-width: 2000px;
   margin: auto;
   position: relative;
-  padding-top: 140px;
+  padding-top: 120px;
   z-index: 1;
 }
 .cards {
@@ -41,15 +41,12 @@ body {
   overflow: hidden;
   margin: 20px;
   text-align: center;
-  /*border-color: #4400ff;
-    border-width: 2px;
-    border-style: solid;*/
   position: relative;
   background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5));
 }
 .cards .card img {
-  margin: 10px 20px 0px 40px;
-  padding: 10px 20px 0px 40px;
+  margin: 0 auto;
+  margin-top: 20px;
   display: block;
   height: 250px;
   width: 200px;
@@ -57,8 +54,8 @@ body {
 .image #details {
   position: absolute;
   align-items: center;
-  top: 90px;
-  left: 70px;
+  top: 40px;
+  left: 82.5px;
   width: 50%;
   display: none;
 }
@@ -81,6 +78,7 @@ body {
   border-color: beige;
   width: 100px;
   height: 100px;
+  top: 0px;
 }
 .articulos .cards .card .icon-links i {
   margin-left: 30px;
@@ -89,18 +87,18 @@ body {
 }
 .articulos .cards .card .icon-links .buy i {
   position: absolute;
-  left: 10px;
-  top: 400px;
+  left: 0px;
+  top: 415px;
 }
 .articulos .cards .card .icon-links .view i {
   position: absolute;
-  left: 60px;
-  top: 400px;
+  left: 50px;
+  top: 415px;
 }
 .articulos .cards .card .icon-links .like i {
   position: absolute;
-  left: 110px;
-  top: 400px;
+  left: 100px;
+  top: 415px;
 }
 
 .articulos .cards .card {
@@ -120,17 +118,9 @@ body {
   overflow: hidden;
   margin: 20px;
   text-align: center;
-  /*border-color: #4400ff;
-    border-width: 2px;
-    border-style: solid;*/
   position: relative;
   background-image: linear-gradient(0deg, rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5));
 }
-
-/*.articulos .cards .card .card-body{
-    
-	position: relative;
-}*/
 
 .articulos .cards .card .card-body::before {
   content: "";
