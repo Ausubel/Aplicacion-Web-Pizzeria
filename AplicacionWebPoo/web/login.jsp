@@ -64,8 +64,8 @@
                 </div>
             </div>
             <p class="cuenta-gratis">¿Aun no tienes una cuenta?</p>
-            <input type="email" placeholder="Email">
-            <input type="password" placeholder="Contraseña">
+            <input type="text" id="username" placeholder="Email">
+            <input type="password" id="password" name="password" placeholder="Contraseña">
             <input type="button" value="Iniciar Sesion">
         </form>
         <div class="welcome-back">

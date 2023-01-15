@@ -83,38 +83,3 @@ p {
   text-align: center;
   margin-top: 6rem;
 }
-
-@media only screen and (max-width: 767px) {
-  .menu-icon {
-    display: block;
-    cursor: pointer;
-    padding: 0.5rem 1rem;
-  }
-
-  .navigation {
-    width: 100%;
-    margin-top: 1rem;
-  }
-  .navigation ul {
-    display: none;
-  }
-
-  .navigation ul.show {
-    display: block;
-  }
-
-  .navigation ul li {
-    display: block;
-  }
-
-  .navigation ul li a {
-    display: block;
-    padding: 0.5rem 0;
-    transition: all 0.4s linear;
-    border-radius: 5px;
-  }
-
-  .navigation ul li a:hover {
-    background: #4a4a4a;
-  }
-}

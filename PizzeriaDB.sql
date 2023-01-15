@@ -76,3 +76,12 @@ CREATE TABLE IF NOT EXISTS `Pizzeria_DB`.`OrderDetail` (
     REFERENCES `Pizzeria_DB`.`Order` (`idOrder`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
+
+ALTER TABLE `pizza_db`.`order` 
+DROP FOREIGN KEY `fk_Order_User1`;
+ALTER TABLE `pizza_db`.`order` 
+CHANGE COLUMN `idUser` `idUser` INT NULL ;
+ALTER TABLE `pizza_db`.`order` 
+ADD CONSTRAINT `fk_Order_User1`
+  FOREIGN KEY (`idUser`)
+  REFERENCES `pizza_db`.`user` (`idUser`);
