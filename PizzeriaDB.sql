@@ -5,12 +5,12 @@ CREATE TABLE IF NOT EXISTS `pizza_db`.`PizzaVariety` (
   `idPizzaVariety` VARCHAR(20) NOT NULL,
   `namePizzaVariety` VARCHAR(100) NULL,
   `ingredients` VARCHAR(100) NULL,
-  PRIMARY KEY (`idPizzaVariety`))
+  PRIMARY KEY (`idPizzaVariety`));
 
 CREATE TABLE IF NOT EXISTS `pizza_db`.`PizzaSize` (
   `idPizzaSize` VARCHAR(3) NOT NULL,
   `pizzaSlices` INT NULL,
-  PRIMARY KEY (`idPizzaSize`))
+  PRIMARY KEY (`idPizzaSize`));
 
 --TUPLAS---------------------------------
 INSERT INTO `pizza_db`.`pizzasize`
@@ -46,7 +46,7 @@ CREATE TABLE IF NOT EXISTS `pizza_db`.`User` (
   `loginEmail` VARCHAR(45) NULL,
   `password` VARCHAR(45) NULL,
   `phoneNumber` VARCHAR(45) NULL,
-  PRIMARY KEY (`idUser`))
+  PRIMARY KEY (`idUser`));
 
 
 CREATE TABLE IF NOT EXISTS `pizza_db`.`Pizza` (
@@ -66,7 +66,7 @@ CREATE TABLE IF NOT EXISTS `pizza_db`.`Pizza` (
     FOREIGN KEY (`idPizzaVariety`)
     REFERENCES `pizza_db`.`PizzaVariety` (`idPizzaVariety`)
     ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    ON UPDATE NO ACTION);
 
 
 CREATE TABLE IF NOT EXISTS `pizza_db`.`Order` (
@@ -79,7 +79,7 @@ CREATE TABLE IF NOT EXISTS `pizza_db`.`Order` (
     FOREIGN KEY (`idUser`)
     REFERENCES `pizza_db`.`User` (`idUser`)
     ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    ON UPDATE NO ACTION);
 
 
 CREATE TABLE IF NOT EXISTS `pizza_db`.`OrderDetail` (
@@ -100,4 +100,4 @@ CREATE TABLE IF NOT EXISTS `pizza_db`.`OrderDetail` (
     FOREIGN KEY (`idOrder`)
     REFERENCES `pizza_db`.`Order` (`idOrder`)
     ON DELETE NO ACTION
-    ON UPDATE NO ACTION)
+    ON UPDATE NO ACTION);
