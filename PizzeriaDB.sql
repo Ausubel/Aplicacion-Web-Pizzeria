@@ -27,17 +27,17 @@ INSERT INTO `pizza_db`.`pizzasize`
 (`idPizzaSize`,
 `pizzaSlices`)
 VALUES
-('L',12);
+('L',16);
 INSERT INTO `pizza_db`.`pizzasize`
 (`idPizzaSize`,
 `pizzaSlices`)
 VALUES
-('XL',12);
+('XL',20);
 INSERT INTO `pizza_db`.`pizzasize`
 (`idPizzaSize`,
 `pizzaSlices`)
 VALUES
-('XXL',12);
+('XXL',24);
 -----------------------------------------
 CREATE TABLE IF NOT EXISTS `pizza_db`.`User` (
   `idUser` INT NOT NULL,
@@ -51,10 +51,8 @@ CREATE TABLE IF NOT EXISTS `pizza_db`.`User` (
 
 CREATE TABLE IF NOT EXISTS `pizza_db`.`Pizza` (
   `idPizza` VARCHAR(20) NOT NULL,
-  `namePizza` VARCHAR(45) NULL,
   `unitPrice` FLOAT NULL,
-  `pizzaVariety` VARCHAR(45) NULL,
-  `idPizzaSize` VARCHAR(1) NOT NULL,
+  `idPizzaSize` VARCHAR(3) NOT NULL,
   `idPizzaVariety` VARCHAR(20) NOT NULL,
   PRIMARY KEY (`idPizza`),
   INDEX `fk_Pizza_PizzaSize_idx` (`idPizzaSize` ASC) VISIBLE,
@@ -103,6 +101,3 @@ CREATE TABLE IF NOT EXISTS `pizza_db`.`OrderDetail` (
     REFERENCES `pizza_db`.`Order` (`idOrder`)
     ON DELETE NO ACTION
     ON UPDATE NO ACTION)
-
-
-
