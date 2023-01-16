@@ -30,12 +30,12 @@
                 <tr>
                     <th>Id pizzas</th>
                     <th>Precio</th>
-                    <th>Tamaño</th>
+                    <th>Tama?o</th>
                 </tr>
                              <%
                 try {
                     Class.forName("com.mysql.jdbc.Driver").newInstance();
-                    connection = DriverManager.getConnection(connectionURL, "root", "1234");
+                    connection = DriverManager.getConnection(connectionURL, "root", "intelectus");
                     statement = connection.createStatement();
                     rs = statement.executeQuery(query);
                     while (rs.next()) {
