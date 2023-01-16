@@ -13,7 +13,7 @@
     Connection connection = null;
     ResultSet rs;
     Statement statement = null;
-    String query = "SELECT * FROM orderdetail";
+    String query = "SELECT o.idOrderDetail,o.quantity,o.totalPrice,pz.namePizzaVariety FROM orderdetail o INNER JOIN pizza p ON p.idPizza=o.idPizza INNER JOIN pizzavariety pz ON pz.idPizzaVariety = p.idPizzaVariety ORDER BY idOrderDetail";
 %>
 <!DOCTYPE html>
 <html lang="en">
@@ -51,7 +51,7 @@
                     <td><%=rs.getString("idOrderDetail")%></td>
                     <td><%=rs.getString("quantity")%></td>
                     <td><%=rs.getString("totalPrice")%></td>
-                    <td><%=rs.getString("idPizza")%></td>
+                    <td><%=rs.getString("namePizzaVariety")%></td>
                 </tr>
 
                  <%
