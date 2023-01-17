@@ -18,7 +18,7 @@ public class LoginDAO {
     ResultSet rs = null;
     conexion cn = new conexion();
     public int validarLogin(UsuarioModel um)throws Exception{
-        sql="select count(idUser) as Cantidad from `user` where loginEmail='"+um.getLoginEmail()+"' and password='"+um.getPassword()+"'";
+        sql="select count(idUser) as Cantidad from user where loginEmail='"+um.getLoginEmail()+"' and password='"+um.getPassword()+"'";
         rs = cn.ejecutarConsulta(sql);
         while(rs.next()){
             rspta=rs.getInt("Cantidad");

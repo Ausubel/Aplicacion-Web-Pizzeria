@@ -29,10 +29,10 @@
     %>
 
 <body>
-    <form class="formulario" method="post" action="/AplicacionWebPoo/LoginController">
+    <form class="formulario" method="post" action="/PapaPizzeria/LoginController">
         <input type="text" name="email" placeholder="Email" required>
         <input type="password" name="password" placeholder="Contraseña" required>
-        <input type="button" name="btn-login" value="Iniciar Sesion">
+        <input type="submit" name="btn-login" value="Iniciar Sesion">
         <p style="color: red;"><%=rspta %></p>
     </form>
 </body>

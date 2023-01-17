@@ -42,19 +42,24 @@ public class LoginController extends HttpServlet {
             int rspta=0;
             if(request.getParameter("btn-login")!=null){
                 UsuarioModel um = new UsuarioModel();
+                
                 String email =request.getParameter("email");
                 String password =request.getParameter("password");
+                
                 um.setLoginEmail(email);
                 um.setPassword(password);
+                
                 try {
                     rspta=lg.validarLogin(tm);
                 } catch (Exception ex) {
                     Logger.getLogger(LoginController.class.getName()).log(Level.SEVERE, null, ex);
                 }
                 if (rspta!=0) {
+                    System.out.println("Entraste");
                     response.sendRedirect("/PapaPizzeria/estadisticas.jsp");
                 }else{
                     response.sendRedirect("/PapaPizzeria/login.jsp?rspta"+rspta);
+                    System.out.println("No estraste");
                 }
             }
             out.print(" <script>console.log(1);</script>");
