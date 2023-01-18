@@ -6,12 +6,62 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page</title>
-    </head>
-    <body>
-        <h1>Hello pepetoxiano!</h1>
-    </body>
+<%@page import="java.sql.*"%>
+<%@page import="com.mysql.jdbc.Driver"%>
+<%
+    String connectionURL = "jdbc:mysql://localhost:3306/pizza_db?serverTimezone=UTC";
+    Connection connection = null;
+    ResultSet rs;
+    Statement statement = null;
+    String query = "SELECT o.idOrderDetail,o.quantity,o.totalPrice,pz.namePizzaVariety FROM orderdetail o INNER JOIN pizza p ON p.idPizza=o.idPizza INNER JOIN pizzavariety pz ON pz.idPizzaVariety = p.idPizzaVariety ORDER BY idOrderDetail";
+%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tablas</title>
+
+    <link rel="stylesheet" href="productos.css">
+</head>
+<body>
+    <div class="container">
+        <table class="table">
+            <caption>VENTAS</caption>
+            <thead>
+                <tr>
+                    <th>N° Orden</th>
+                    <th>Cantidad</th>
+                    <th>Precio</th>
+                    <th>Pizza</th>
+                </tr>
+                             <%
+                try {
+                    Class.forName("com.mysql.jdbc.Driver").newInstance();
+                    connection = DriverManager.getConnection(connectionURL, "root", "intelectus");
+                    statement = connection.createStatement();
+                    rs = statement.executeQuery(query);
+                    while (rs.next()) {
+            %>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td><%=rs.getString("idOrderDetail")%></td>
+                    <td><%=rs.getString("quantity")%></td>
+                    <td><%=rs.getString("totalPrice")%></td>
+                    <td><%=rs.getString("namePizzaVariety")%></td>
+                </tr>
+
+                 <%
+                    }
+                } catch (SQLException e) {
+                    out.println("Error al obtener los datos: " + e);
+                }
+            %>
+            </tbody>
+        </table>
+    </div>
+</body>
 </html>
