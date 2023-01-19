@@ -1,123 +1,123 @@
-order_details_id;order_id;pizza_id;quantity;order_date;order_time;unit_price;total_price;pizza_size;pizza_category;pizza_ingredients;pizza_name
-1;1;hawaiian_m;1;00:00.0;1899-12-30 11:38:36.000;13.25;13.25;M;Classic;Sliced Ham, Pineapple, Mozzarella Cheese;The Hawaiian Pizza
-2;2;classic_dlx_m;1;00:00.0;1899-12-30 11:57:40.000;16;16;M;Classic;Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon;The Classic Deluxe Pizza
-3;2;five_cheese_l;1;00:00.0;1899-12-30 11:57:40.000;18.5;18.5;L;Veggie;Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic;The Five Cheese Pizza
-4;2;ital_supr_l;1;00:00.0;1899-12-30 11:57:40.000;20.75;20.75;L;Supreme;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;The Italian Supreme Pizza
-5;2;mexicana_m;1;00:00.0;1899-12-30 11:57:40.000;16;16;M;Veggie;Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic;The Mexicana Pizza
-6;2;thai_ckn_l;1;00:00.0;1899-12-30 11:57:40.000;20.75;20.75;L;Chicken;Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce;The Thai Chicken Pizza
-7;3;ital_supr_m;1;00:00.0;1899-12-30 12:12:28.000;16.5;16.5;M;Supreme;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;The Italian Supreme Pizza
-8;3;prsc_argla_l;1;00:00.0;1899-12-30 12:12:28.000;20.75;20.75;L;Supreme;Prosciutto di San Daniele, Arugula, Mozzarella Cheese;The Prosciutto and Arugula Pizza
-9;4;ital_supr_m;1;00:00.0;1899-12-30 12:16:31.000;16.5;16.5;M;Supreme;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;The Italian Supreme Pizza
-10;5;ital_supr_m;1;00:00.0;1899-12-30 12:21:30.000;16.5;16.5;M;Supreme;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;The Italian Supreme Pizza
-11;6;bbq_ckn_s;1;00:00.0;1899-12-30 12:29:36.000;12.75;12.75;S;Chicken;Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce;The Barbecue Chicken Pizza
-12;6;the_greek_s;1;00:00.0;1899-12-30 12:29:36.000;12;12;S;Classic;Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions;The Greek Pizza
-13;7;spinach_supr_s;1;00:00.0;1899-12-30 12:50:37.000;12.5;12.5;S;Supreme;Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese;The Spinach Supreme Pizza
-14;8;spinach_supr_s;1;00:00.0;1899-12-30 12:51:37.000;12.5;12.5;S;Supreme;Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese;The Spinach Supreme Pizza
-15;9;classic_dlx_s;1;00:00.0;1899-12-30 12:52:01.000;12;12;S;Classic;Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon;The Classic Deluxe Pizza
-16;9;green_garden_s;1;00:00.0;1899-12-30 12:52:01.000;12;12;S;Veggie;Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese;The Green Garden Pizza
-17;9;ital_cpcllo_l;1;00:00.0;1899-12-30 12:52:01.000;20.5;20.5;L;Classic;Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano;The Italian Capocollo Pizza
-18;9;ital_supr_l;1;00:00.0;1899-12-30 12:52:01.000;20.75;20.75;L;Supreme;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;The Italian Supreme Pizza
-19;9;ital_supr_s;1;00:00.0;1899-12-30 12:52:01.000;12.5;12.5;S;Supreme;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;The Italian Supreme Pizza
-20;9;mexicana_s;1;00:00.0;1899-12-30 12:52:01.000;12;12;S;Veggie;Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic;The Mexicana Pizza
-21;9;spicy_ital_l;1;00:00.0;1899-12-30 12:52:01.000;20.75;20.75;L;Supreme;Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic;The Spicy Italian Pizza
-22;9;spin_pesto_l;1;00:00.0;1899-12-30 12:52:01.000;20.75;20.75;L;Veggie;Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce;The Spinach Pesto Pizza
-23;9;veggie_veg_s;1;00:00.0;1899-12-30 12:52:01.000;12;12;S;Veggie;Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic;The Vegetables + Vegetables Pizza
-24;10;mexicana_l;1;00:00.0;1899-12-30 13:00:15.000;20.25;20.25;L;Veggie;Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic;The Mexicana Pizza
-25;10;southw_ckn_l;1;00:00.0;1899-12-30 13:00:15.000;20.75;20.75;L;Chicken;Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce;The Southwest Chicken Pizza
-26;11;bbq_ckn_l;1;00:00.0;1899-12-30 13:02:59.000;20.75;20.75;L;Chicken;Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce;The Barbecue Chicken Pizza
-27;11;cali_ckn_l;1;00:00.0;1899-12-30 13:02:59.000;20.75;20.75;L;Chicken;Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese;The California Chicken Pizza
-28;11;cali_ckn_m;1;00:00.0;1899-12-30 13:02:59.000;16.75;16.75;M;Chicken;Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese;The California Chicken Pizza
-29;11;pepperoni_l;1;00:00.0;1899-12-30 13:02:59.000;15.25;15.25;L;Classic;Mozzarella Cheese, Pepperoni;The Pepperoni Pizza
-30;12;cali_ckn_l;1;00:00.0;1899-12-30 13:04:41.000;20.75;20.75;L;Chicken;Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese;The California Chicken Pizza
-31;12;cali_ckn_s;1;00:00.0;1899-12-30 13:04:41.000;12.75;12.75;S;Chicken;Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese;The California Chicken Pizza
-32;12;ckn_pesto_l;1;00:00.0;1899-12-30 13:04:41.000;20.75;20.75;L;Chicken;Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce;The Chicken Pesto Pizza
-33;12;ital_supr_m;1;00:00.0;1899-12-30 13:04:41.000;16.5;16.5;M;Supreme;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;The Italian Supreme Pizza
-34;13;mexicana_l;1;00:00.0;1899-12-30 13:11:55.000;20.25;20.25;L;Veggie;Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic;The Mexicana Pizza
-35;14;the_greek_s;1;00:00.0;1899-12-30 13:14:19.000;12;12;S;Classic;Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions;The Greek Pizza
-36;15;big_meat_s;1;00:00.0;1899-12-30 13:33:00.000;12;12;S;Classic;Bacon, Pepperoni, Italian Sausage, Chorizo Sausage;The Big Meat Pizza
-37;15;five_cheese_l;1;00:00.0;1899-12-30 13:33:00.000;18.5;18.5;L;Veggie;Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic;The Five Cheese Pizza
-38;15;soppressata_l;1;00:00.0;1899-12-30 13:33:00.000;20.75;20.75;L;Supreme;Soppressata Salami, Fontina Cheese, Mozzarella Cheese, Mushrooms, Garlic;The Soppressata Pizza
-39;15;the_greek_s;1;00:00.0;1899-12-30 13:33:00.000;12;12;S;Classic;Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions;The Greek Pizza
-40;16;four_cheese_l;1;00:00.0;1899-12-30 13:34:07.000;17.95;17.95;L;Veggie;Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic;The Four Cheese Pizza
-41;16;napolitana_s;1;00:00.0;1899-12-30 13:34:07.000;12;12;S;Classic;Tomatoes, Anchovies, Green Olives, Red Onions, Garlic;The Napolitana Pizza
-42;16;thai_ckn_l;1;00:00.0;1899-12-30 13:34:07.000;20.75;20.75;L;Chicken;Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce;The Thai Chicken Pizza
-43;17;bbq_ckn_l;1;00:00.0;1899-12-30 13:53:00.000;20.75;20.75;L;Chicken;Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce;The Barbecue Chicken Pizza
-44;17;calabrese_m;1;00:00.0;1899-12-30 13:53:00.000;16.25;16.25;M;Supreme;?duja Salami, Pancetta, Tomatoes, Red Onions, Friggitello Peppers, Garlic;The Calabrese Pizza
-45;17;five_cheese_l;1;00:00.0;1899-12-30 13:53:00.000;18.5;18.5;L;Veggie;Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic;The Five Cheese Pizza
-46;17;four_cheese_m;1;00:00.0;1899-12-30 13:53:00.000;14.75;14.75;M;Veggie;Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic;The Four Cheese Pizza
-47;17;ital_supr_m;1;00:00.0;1899-12-30 13:53:00.000;16.5;16.5;M;Supreme;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;The Italian Supreme Pizza
-48;17;ital_veggie_s;1;00:00.0;1899-12-30 13:53:00.000;12.75;12.75;S;Veggie;Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce;The Italian Vegetables Pizza
-49;17;mediterraneo_m;2;00:00.0;1899-12-30 13:53:00.000;16;32;M;Veggie;Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions;The Mediterranean Pizza
-50;17;mexicana_l;1;00:00.0;1899-12-30 13:53:00.000;20.25;20.25;L;Veggie;Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic;The Mexicana Pizza
-51;17;peppr_salami_s;1;00:00.0;1899-12-30 13:53:00.000;12.5;12.5;S;Supreme;Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic;The Pepper Salami Pizza
-52;17;spinach_fet_l;1;00:00.0;1899-12-30 13:53:00.000;20.25;20.25;L;Veggie;Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic;The Spinach and Feta Pizza
-53;18;napolitana_l;1;00:00.0;1899-12-30 13:57:08.000;20.5;20.5;L;Classic;Tomatoes, Anchovies, Green Olives, Red Onions, Garlic;The Napolitana Pizza
-54;19;ital_cpcllo_l;1;00:00.0;1899-12-30 13:59:09.000;20.5;20.5;L;Classic;Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano;The Italian Capocollo Pizza
-55;19;sicilian_l;1;00:00.0;1899-12-30 13:59:09.000;20.25;20.25;L;Supreme;Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic;The Sicilian Pizza
-56;20;big_meat_s;1;00:00.0;1899-12-30 14:03:08.000;12;12;S;Classic;Bacon, Pepperoni, Italian Sausage, Chorizo Sausage;The Big Meat Pizza
-57;20;five_cheese_l;1;00:00.0;1899-12-30 14:03:08.000;18.5;18.5;L;Veggie;Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic;The Five Cheese Pizza
-58;21;ital_cpcllo_l;1;00:00.0;1899-12-30 14:14:29.000;20.5;20.5;L;Classic;Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano;The Italian Capocollo Pizza
-59;22;five_cheese_l;1;00:00.0;1899-12-30 14:16:26.000;18.5;18.5;L;Veggie;Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic;The Five Cheese Pizza
-60;22;ital_cpcllo_m;1;00:00.0;1899-12-30 14:16:26.000;16;16;M;Classic;Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano;The Italian Capocollo Pizza
-61;22;southw_ckn_l;1;00:00.0;1899-12-30 14:16:26.000;20.75;20.75;L;Chicken;Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce;The Southwest Chicken Pizza
-62;23;southw_ckn_s;1;00:00.0;1899-12-30 14:19:03.000;12.75;12.75;S;Chicken;Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce;The Southwest Chicken Pizza
-63;24;bbq_ckn_m;1;00:00.0;1899-12-30 14:23:01.000;16.75;16.75;M;Chicken;Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce;The Barbecue Chicken Pizza
-64;24;ital_cpcllo_m;1;00:00.0;1899-12-30 14:23:01.000;16;16;M;Classic;Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano;The Italian Capocollo Pizza
-65;24;pepperoni_m;1;00:00.0;1899-12-30 14:23:01.000;12.5;12.5;M;Classic;Mozzarella Cheese, Pepperoni;The Pepperoni Pizza
-66;24;prsc_argla_s;1;00:00.0;1899-12-30 14:23:01.000;12.5;12.5;S;Supreme;Prosciutto di San Daniele, Arugula, Mozzarella Cheese;The Prosciutto and Arugula Pizza
-67;25;sicilian_m;1;00:00.0;1899-12-30 14:44:44.000;16.25;16.25;M;Supreme;Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic;The Sicilian Pizza
-68;25;thai_ckn_l;1;00:00.0;1899-12-30 14:44:44.000;20.75;20.75;L;Chicken;Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce;The Thai Chicken Pizza
-69;26;classic_dlx_s;1;00:00.0;1899-12-30 14:54:26.000;12;12;S;Classic;Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon;The Classic Deluxe Pizza
-70;26;veggie_veg_l;1;00:00.0;1899-12-30 14:54:26.000;20.25;20.25;L;Veggie;Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic;The Vegetables + Vegetables Pizza
-71;27;bbq_ckn_l;1;00:00.0;1899-12-30 15:11:17.000;20.75;20.75;L;Chicken;Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce;The Barbecue Chicken Pizza
-72;27;classic_dlx_m;1;00:00.0;1899-12-30 15:11:17.000;16;16;M;Classic;Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon;The Classic Deluxe Pizza
-73;27;spinach_fet_l;1;00:00.0;1899-12-30 15:11:17.000;20.25;20.25;L;Veggie;Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic;The Spinach and Feta Pizza
-74;28;ckn_alfredo_s;1;00:00.0;1899-12-30 15:35:46.000;12.75;12.75;S;Chicken;Chicken, Red Onions, Red Peppers, Mushrooms, Asiago Cheese, Alfredo Sauce;The Chicken Alfredo Pizza
-75;29;green_garden_s;1;00:00.0;1899-12-30 15:41:01.000;12;12;S;Veggie;Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese;The Green Garden Pizza
-76;30;thai_ckn_l;1;00:00.0;1899-12-30 15:41:25.000;20.75;20.75;L;Chicken;Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce;The Thai Chicken Pizza
-77;31;mexicana_m;1;00:00.0;1899-12-30 15:50:18.000;16;16;M;Veggie;Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic;The Mexicana Pizza
-78;31;pepperoni_s;1;00:00.0;1899-12-30 15:50:18.000;9.75;9.75;S;Classic;Mozzarella Cheese, Pepperoni;The Pepperoni Pizza
-79;32;big_meat_s;1;00:00.0;1899-12-30 15:53:18.000;12;12;S;Classic;Bacon, Pepperoni, Italian Sausage, Chorizo Sausage;The Big Meat Pizza
-80;32;green_garden_l;1;00:00.0;1899-12-30 15:53:18.000;20.25;20.25;L;Veggie;Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese;The Green Garden Pizza
-81;32;ital_cpcllo_l;1;00:00.0;1899-12-30 15:53:18.000;20.5;20.5;L;Classic;Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano;The Italian Capocollo Pizza
-82;32;ital_supr_m;1;00:00.0;1899-12-30 15:53:18.000;16.5;16.5;M;Supreme;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;The Italian Supreme Pizza
-83;33;bbq_ckn_l;1;00:00.0;1899-12-30 15:54:08.000;20.75;20.75;L;Chicken;Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce;The Barbecue Chicken Pizza
-84;33;green_garden_s;1;00:00.0;1899-12-30 15:54:08.000;12;12;S;Veggie;Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese;The Green Garden Pizza
-85;34;the_greek_s;1;00:00.0;1899-12-30 16:21:21.000;12;12;S;Classic;Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions;The Greek Pizza
-86;35;green_garden_m;1;00:00.0;1899-12-30 16:32:04.000;16;16;M;Veggie;Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese;The Green Garden Pizza
-87;35;pep_msh_pep_l;1;00:00.0;1899-12-30 16:32:04.000;17.5;17.5;L;Classic;Pepperoni, Mushrooms, Green Peppers;The Pepperoni, Mushroom, and Peppers Pizza
-88;35;pepperoni_m;1;00:00.0;1899-12-30 16:32:04.000;12.5;12.5;M;Classic;Mozzarella Cheese, Pepperoni;The Pepperoni Pizza
-89;35;thai_ckn_l;1;00:00.0;1899-12-30 16:32:04.000;20.75;20.75;L;Chicken;Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce;The Thai Chicken Pizza
-90;36;bbq_ckn_m;1;00:00.0;1899-12-30 16:54:09.000;16.75;16.75;M;Chicken;Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce;The Barbecue Chicken Pizza
-91;36;classic_dlx_m;1;00:00.0;1899-12-30 16:54:09.000;16;16;M;Classic;Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon;The Classic Deluxe Pizza
-92;37;ital_supr_l;1;00:00.0;1899-12-30 16:56:09.000;20.75;20.75;L;Supreme;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;The Italian Supreme Pizza
-93;37;mexicana_l;1;00:00.0;1899-12-30 16:56:09.000;20.25;20.25;L;Veggie;Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic;The Mexicana Pizza
-94;38;hawaiian_s;1;00:00.0;1899-12-30 17:03:00.000;10.5;10.5;S;Classic;Sliced Ham, Pineapple, Mozzarella Cheese;The Hawaiian Pizza
-95;38;ital_cpcllo_l;1;00:00.0;1899-12-30 17:03:00.000;20.5;20.5;L;Classic;Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano;The Italian Capocollo Pizza
-96;39;ital_supr_l;1;00:00.0;1899-12-30 17:07:23.000;20.75;20.75;L;Supreme;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;The Italian Supreme Pizza
-97;40;four_cheese_l;1;00:00.0;1899-12-30 17:14:36.000;17.95;17.95;L;Veggie;Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic;The Four Cheese Pizza
-98;40;southw_ckn_s;1;00:00.0;1899-12-30 17:14:36.000;12.75;12.75;S;Chicken;Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce;The Southwest Chicken Pizza
-99;41;four_cheese_m;1;00:00.0;1899-12-30 17:15:20.000;14.75;14.75;M;Veggie;Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic;The Four Cheese Pizza
-100;41;green_garden_s;1;00:00.0;1899-12-30 17:15:20.000;12;12;S;Veggie;Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese;The Green Garden Pizza
-101;42;big_meat_s;1;00:00.0;1899-12-30 17:28:09.000;12;12;S;Classic;Bacon, Pepperoni, Italian Sausage, Chorizo Sausage;The Big Meat Pizza
-102;42;five_cheese_l;1;00:00.0;1899-12-30 17:28:09.000;18.5;18.5;L;Veggie;Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic;The Five Cheese Pizza
-103;42;mexicana_l;1;00:00.0;1899-12-30 17:28:09.000;20.25;20.25;L;Veggie;Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic;The Mexicana Pizza
-104;42;peppr_salami_m;1;00:00.0;1899-12-30 17:28:09.000;16.5;16.5;M;Supreme;Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic;The Pepper Salami Pizza
-105;43;ckn_alfredo_m;1;00:00.0;1899-12-30 17:38:34.000;16.75;16.75;M;Chicken;Chicken, Red Onions, Red Peppers, Mushrooms, Asiago Cheese, Alfredo Sauce;The Chicken Alfredo Pizza
-106;43;ital_supr_m;1;00:00.0;1899-12-30 17:38:34.000;16.5;16.5;M;Supreme;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;The Italian Supreme Pizza
-107;43;peppr_salami_l;1;00:00.0;1899-12-30 17:38:34.000;20.75;20.75;L;Supreme;Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic;The Pepper Salami Pizza
-108;44;spin_pesto_s;1;00:00.0;1899-12-30 17:54:20.000;12.5;12.5;S;Veggie;Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce;The Spinach Pesto Pizza
-109;45;four_cheese_l;1;00:00.0;1899-12-30 17:55:48.000;17.95;17.95;L;Veggie;Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic;The Four Cheese Pizza
-110;45;hawaiian_s;1;00:00.0;1899-12-30 17:55:48.000;10.5;10.5;S;Classic;Sliced Ham, Pineapple, Mozzarella Cheese;The Hawaiian Pizza
-111;45;thai_ckn_m;1;00:00.0;1899-12-30 17:55:48.000;16.75;16.75;M;Chicken;Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce;The Thai Chicken Pizza
-112;46;ckn_pesto_l;1;00:00.0;1899-12-30 18:25:51.000;20.75;20.75;L;Chicken;Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce;The Chicken Pesto Pizza
-113;46;classic_dlx_l;1;00:00.0;1899-12-30 18:25:51.000;20.5;20.5;L;Classic;Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon;The Classic Deluxe Pizza
-114;46;thai_ckn_m;1;00:00.0;1899-12-30 18:25:51.000;16.75;16.75;M;Chicken;Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce;The Thai Chicken Pizza
-115;47;southw_ckn_l;1;00:00.0;1899-12-30 18:26:34.000;20.75;20.75;L;Chicken;Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce;The Southwest Chicken Pizza
-116;47;veggie_veg_s;1;00:00.0;1899-12-30 18:26:34.000;12;12;S;Veggie;Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic;The Vegetables + Vegetables Pizza
-117;48;ckn_pesto_m;1;00:00.0;1899-12-30 18:26:42.000;16.75;16.75;M;Chicken;Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce;The Chicken Pesto Pizza
-118;48;green_garden_s;1;00:00.0;1899-12-30 18:26:42.000;12;12;S;Veggie;Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese;The Green Garden Pizza
-119;48;prsc_argla_l;1;00:00.0;1899-12-30 18:26:42.000;20.75;20.75;L;Supreme;Prosciutto di San Daniele, Arugula, Mozzarella Cheese;The Prosciutto and Arugula Pizza
-120;48;spicy_ital_l;1;00:00.0;1899-12-30 18:26:42.000;20.75;20.75;L;Supreme;Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic;The Spicy Italian Pizza
-121;49;sicilian_l;1;00:00.0;1899-12-30 18:33:00.000;20.25;20.25;L;Supreme;Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic;The Sicilian Pizza
-122;50;the_greek_xl;1;00:00.0;1899-12-30 18:41:01.000;25.5;25.5;XL;Classic;Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions;The Greek Pizza
+order_details_id;order_id;pizza_id;quantity;order_date;order_time;unit_price;total_price;pizza_size;pizza_ingredients;pizza_name
+1;1;hawaiian_m;1;00:00.0;1899-12-30 11:38:36.000;13.25;13.25;M;Sliced Ham, Pineapple, Mozzarella Cheese;The Hawaiian Pizza
+2;2;classic_dlx_m;1;00:00.0;1899-12-30 11:57:40.000;16;16;M;Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon;The Classic Deluxe Pizza
+3;2;five_cheese_l;1;00:00.0;1899-12-30 11:57:40.000;18.5;18.5;L;Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic;The Five Cheese Pizza
+4;2;ital_supr_l;1;00:00.0;1899-12-30 11:57:40.000;20.75;20.75;L;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;The Italian Supreme Pizza
+5;2;mexicana_m;1;00:00.0;1899-12-30 11:57:40.000;16;16;M;Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic;The Mexicana Pizza
+6;2;thai_ckn_l;1;00:00.0;1899-12-30 11:57:40.000;20.75;20.75;L;Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce;The Thai Chicken Pizza
+7;3;ital_supr_m;1;00:00.0;1899-12-30 12:12:28.000;16.5;16.5;M;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;The Italian Supreme Pizza
+8;3;prsc_argla_l;1;00:00.0;1899-12-30 12:12:28.000;20.75;20.75;L;Prosciutto di San Daniele, Arugula, Mozzarella Cheese;The Prosciutto and Arugula Pizza
+9;4;ital_supr_m;1;00:00.0;1899-12-30 12:16:31.000;16.5;16.5;M;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;The Italian Supreme Pizza
+10;5;ital_supr_m;1;00:00.0;1899-12-30 12:21:30.000;16.5;16.5;M;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;The Italian Supreme Pizza
+11;6;bbq_ckn_s;1;00:00.0;1899-12-30 12:29:36.000;12.75;12.75;S;Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce;The Barbecue Chicken Pizza
+12;6;the_greek_s;1;00:00.0;1899-12-30 12:29:36.000;12;12;S;Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions;The Greek Pizza
+13;7;spinach_supr_s;1;00:00.0;1899-12-30 12:50:37.000;12.5;12.5;S;Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese;The Spinach Supreme Pizza
+14;8;spinach_supr_s;1;00:00.0;1899-12-30 12:51:37.000;12.5;12.5;S;Spinach, Red Onions, Pepperoni, Tomatoes, Artichokes, Kalamata Olives, Garlic, Asiago Cheese;The Spinach Supreme Pizza
+15;9;classic_dlx_s;1;00:00.0;1899-12-30 12:52:01.000;12;12;S;Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon;The Classic Deluxe Pizza
+16;9;green_garden_s;1;00:00.0;1899-12-30 12:52:01.000;12;12;S;Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese;The Green Garden Pizza
+17;9;ital_cpcllo_l;1;00:00.0;1899-12-30 12:52:01.000;20.5;20.5;L;Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano;The Italian Capocollo Pizza
+18;9;ital_supr_l;1;00:00.0;1899-12-30 12:52:01.000;20.75;20.75;L;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;The Italian Supreme Pizza
+19;9;ital_supr_s;1;00:00.0;1899-12-30 12:52:01.000;12.5;12.5;S;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;The Italian Supreme Pizza
+20;9;mexicana_s;1;00:00.0;1899-12-30 12:52:01.000;12;12;S;Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic;The Mexicana Pizza
+21;9;spicy_ital_l;1;00:00.0;1899-12-30 12:52:01.000;20.75;20.75;L;Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic;The Spicy Italian Pizza
+22;9;spin_pesto_l;1;00:00.0;1899-12-30 12:52:01.000;20.75;20.75;L;Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce;The Spinach Pesto Pizza
+23;9;veggie_veg_s;1;00:00.0;1899-12-30 12:52:01.000;12;12;S;Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic;The Vegetables + Vegetables Pizza
+24;10;mexicana_l;1;00:00.0;1899-12-30 13:00:15.000;20.25;20.25;L;Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic;The Mexicana Pizza
+25;10;southw_ckn_l;1;00:00.0;1899-12-30 13:00:15.000;20.75;20.75;L;Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce;The Southwest Chicken Pizza
+26;11;bbq_ckn_l;1;00:00.0;1899-12-30 13:02:59.000;20.75;20.75;L;Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce;The Barbecue Chicken Pizza
+27;11;cali_ckn_l;1;00:00.0;1899-12-30 13:02:59.000;20.75;20.75;L;Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese;The California Chicken Pizza
+28;11;cali_ckn_m;1;00:00.0;1899-12-30 13:02:59.000;16.75;16.75;M;Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese;The California Chicken Pizza
+29;11;pepperoni_l;1;00:00.0;1899-12-30 13:02:59.000;15.25;15.25;L;Mozzarella Cheese, Pepperoni;The Pepperoni Pizza
+30;12;cali_ckn_l;1;00:00.0;1899-12-30 13:04:41.000;20.75;20.75;L;Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese;The California Chicken Pizza
+31;12;cali_ckn_s;1;00:00.0;1899-12-30 13:04:41.000;12.75;12.75;S;Chicken, Artichoke, Spinach, Garlic, Jalapeno Peppers, Fontina Cheese, Gouda Cheese;The California Chicken Pizza
+32;12;ckn_pesto_l;1;00:00.0;1899-12-30 13:04:41.000;20.75;20.75;L;Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce;The Chicken Pesto Pizza
+33;12;ital_supr_m;1;00:00.0;1899-12-30 13:04:41.000;16.5;16.5;M;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;The Italian Supreme Pizza
+34;13;mexicana_l;1;00:00.0;1899-12-30 13:11:55.000;20.25;20.25;L;Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic;The Mexicana Pizza
+35;14;the_greek_s;1;00:00.0;1899-12-30 13:14:19.000;12;12;S;Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions;The Greek Pizza
+36;15;big_meat_s;1;00:00.0;1899-12-30 13:33:00.000;12;12;S;Bacon, Pepperoni, Italian Sausage, Chorizo Sausage;The Big Meat Pizza
+37;15;five_cheese_l;1;00:00.0;1899-12-30 13:33:00.000;18.5;18.5;L;Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic;The Five Cheese Pizza
+38;15;soppressata_l;1;00:00.0;1899-12-30 13:33:00.000;20.75;20.75;L;Soppressata Salami, Fontina Cheese, Mozzarella Cheese, Mushrooms, Garlic;The Soppressata Pizza
+39;15;the_greek_s;1;00:00.0;1899-12-30 13:33:00.000;12;12;S;Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions;The Greek Pizza
+40;16;four_cheese_l;1;00:00.0;1899-12-30 13:34:07.000;17.95;17.95;L;Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic;The Four Cheese Pizza
+41;16;napolitana_s;1;00:00.0;1899-12-30 13:34:07.000;12;12;S;Tomatoes, Anchovies, Green Olives, Red Onions, Garlic;The Napolitana Pizza
+42;16;thai_ckn_l;1;00:00.0;1899-12-30 13:34:07.000;20.75;20.75;L;Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce;The Thai Chicken Pizza
+43;17;bbq_ckn_l;1;00:00.0;1899-12-30 13:53:00.000;20.75;20.75;L;Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce;The Barbecue Chicken Pizza
+44;17;calabrese_m;1;00:00.0;1899-12-30 13:53:00.000;16.25;16.25;M;?duja Salami, Pancetta, Tomatoes, Red Onions, Friggitello Peppers, Garlic;The Calabrese Pizza
+45;17;five_cheese_l;1;00:00.0;1899-12-30 13:53:00.000;18.5;18.5;L;Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic;The Five Cheese Pizza
+46;17;four_cheese_m;1;00:00.0;1899-12-30 13:53:00.000;14.75;14.75;M;Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic;The Four Cheese Pizza
+47;17;ital_supr_m;1;00:00.0;1899-12-30 13:53:00.000;16.5;16.5;M;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;The Italian Supreme Pizza
+48;17;ital_veggie_s;1;00:00.0;1899-12-30 13:53:00.000;12.75;12.75;S;Eggplant, Artichokes, Tomatoes, Zucchini, Red Peppers, Garlic, Pesto Sauce;The Italian Vegetables Pizza
+49;17;mediterraneo_m;2;00:00.0;1899-12-30 13:53:00.000;16;32;M;Spinach, Artichokes, Kalamata Olives, Sun-dried Tomatoes, Feta Cheese, Plum Tomatoes, Red Onions;The Mediterranean Pizza
+50;17;mexicana_l;1;00:00.0;1899-12-30 13:53:00.000;20.25;20.25;L;Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic;The Mexicana Pizza
+51;17;peppr_salami_s;1;00:00.0;1899-12-30 13:53:00.000;12.5;12.5;S;Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic;The Pepper Salami Pizza
+52;17;spinach_fet_l;1;00:00.0;1899-12-30 13:53:00.000;20.25;20.25;L;Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic;The Spinach and Feta Pizza
+53;18;napolitana_l;1;00:00.0;1899-12-30 13:57:08.000;20.5;20.5;L;Tomatoes, Anchovies, Green Olives, Red Onions, Garlic;The Napolitana Pizza
+54;19;ital_cpcllo_l;1;00:00.0;1899-12-30 13:59:09.000;20.5;20.5;L;Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano;The Italian Capocollo Pizza
+55;19;sicilian_l;1;00:00.0;1899-12-30 13:59:09.000;20.25;20.25;L;Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic;The Sicilian Pizza
+56;20;big_meat_s;1;00:00.0;1899-12-30 14:03:08.000;12;12;S;Bacon, Pepperoni, Italian Sausage, Chorizo Sausage;The Big Meat Pizza
+57;20;five_cheese_l;1;00:00.0;1899-12-30 14:03:08.000;18.5;18.5;L;Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic;The Five Cheese Pizza
+58;21;ital_cpcllo_l;1;00:00.0;1899-12-30 14:14:29.000;20.5;20.5;L;Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano;The Italian Capocollo Pizza
+59;22;five_cheese_l;1;00:00.0;1899-12-30 14:16:26.000;18.5;18.5;L;Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic;The Five Cheese Pizza
+60;22;ital_cpcllo_m;1;00:00.0;1899-12-30 14:16:26.000;16;16;M;Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano;The Italian Capocollo Pizza
+61;22;southw_ckn_l;1;00:00.0;1899-12-30 14:16:26.000;20.75;20.75;L;Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce;The Southwest Chicken Pizza
+62;23;southw_ckn_s;1;00:00.0;1899-12-30 14:19:03.000;12.75;12.75;S;Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce;The Southwest Chicken Pizza
+63;24;bbq_ckn_m;1;00:00.0;1899-12-30 14:23:01.000;16.75;16.75;M;Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce;The Barbecue Chicken Pizza
+64;24;ital_cpcllo_m;1;00:00.0;1899-12-30 14:23:01.000;16;16;M;Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano;The Italian Capocollo Pizza
+65;24;pepperoni_m;1;00:00.0;1899-12-30 14:23:01.000;12.5;12.5;M;Mozzarella Cheese, Pepperoni;The Pepperoni Pizza
+66;24;prsc_argla_s;1;00:00.0;1899-12-30 14:23:01.000;12.5;12.5;S;Prosciutto di San Daniele, Arugula, Mozzarella Cheese;The Prosciutto and Arugula Pizza
+67;25;sicilian_m;1;00:00.0;1899-12-30 14:44:44.000;16.25;16.25;M;Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic;The Sicilian Pizza
+68;25;thai_ckn_l;1;00:00.0;1899-12-30 14:44:44.000;20.75;20.75;L;Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce;The Thai Chicken Pizza
+69;26;classic_dlx_s;1;00:00.0;1899-12-30 14:54:26.000;12;12;S;Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon;The Classic Deluxe Pizza
+70;26;veggie_veg_l;1;00:00.0;1899-12-30 14:54:26.000;20.25;20.25;L;Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic;The Vegetables + Vegetables Pizza
+71;27;bbq_ckn_l;1;00:00.0;1899-12-30 15:11:17.000;20.75;20.75;L;Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce;The Barbecue Chicken Pizza
+72;27;classic_dlx_m;1;00:00.0;1899-12-30 15:11:17.000;16;16;M;Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon;The Classic Deluxe Pizza
+73;27;spinach_fet_l;1;00:00.0;1899-12-30 15:11:17.000;20.25;20.25;L;Spinach, Mushrooms, Red Onions, Feta Cheese, Garlic;The Spinach and Feta Pizza
+74;28;ckn_alfredo_s;1;00:00.0;1899-12-30 15:35:46.000;12.75;12.75;S;Chicken, Red Onions, Red Peppers, Mushrooms, Asiago Cheese, Alfredo Sauce;The Chicken Alfredo Pizza
+75;29;green_garden_s;1;00:00.0;1899-12-30 15:41:01.000;12;12;S;Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese;The Green Garden Pizza
+76;30;thai_ckn_l;1;00:00.0;1899-12-30 15:41:25.000;20.75;20.75;L;Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce;The Thai Chicken Pizza
+77;31;mexicana_m;1;00:00.0;1899-12-30 15:50:18.000;16;16;M;Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic;The Mexicana Pizza
+78;31;pepperoni_s;1;00:00.0;1899-12-30 15:50:18.000;9.75;9.75;S;Mozzarella Cheese, Pepperoni;The Pepperoni Pizza
+79;32;big_meat_s;1;00:00.0;1899-12-30 15:53:18.000;12;12;S;Bacon, Pepperoni, Italian Sausage, Chorizo Sausage;The Big Meat Pizza
+80;32;green_garden_l;1;00:00.0;1899-12-30 15:53:18.000;20.25;20.25;L;Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese;The Green Garden Pizza
+81;32;ital_cpcllo_l;1;00:00.0;1899-12-30 15:53:18.000;20.5;20.5;L;Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano;The Italian Capocollo Pizza
+82;32;ital_supr_m;1;00:00.0;1899-12-30 15:53:18.000;16.5;16.5;M;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;The Italian Supreme Pizza
+83;33;bbq_ckn_l;1;00:00.0;1899-12-30 15:54:08.000;20.75;20.75;L;Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce;The Barbecue Chicken Pizza
+84;33;green_garden_s;1;00:00.0;1899-12-30 15:54:08.000;12;12;S;Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese;The Green Garden Pizza
+85;34;the_greek_s;1;00:00.0;1899-12-30 16:21:21.000;12;12;S;Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions;The Greek Pizza
+86;35;green_garden_m;1;00:00.0;1899-12-30 16:32:04.000;16;16;M;Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese;The Green Garden Pizza
+87;35;pep_msh_pep_l;1;00:00.0;1899-12-30 16:32:04.000;17.5;17.5;L;Pepperoni, Mushrooms, Green Peppers;The Pepperoni, Mushroom, and Peppers Pizza
+88;35;pepperoni_m;1;00:00.0;1899-12-30 16:32:04.000;12.5;12.5;M;Mozzarella Cheese, Pepperoni;The Pepperoni Pizza
+89;35;thai_ckn_l;1;00:00.0;1899-12-30 16:32:04.000;20.75;20.75;L;Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce;The Thai Chicken Pizza
+90;36;bbq_ckn_m;1;00:00.0;1899-12-30 16:54:09.000;16.75;16.75;M;Barbecued Chicken, Red Peppers, Green Peppers, Tomatoes, Red Onions, Barbecue Sauce;The Barbecue Chicken Pizza
+91;36;classic_dlx_m;1;00:00.0;1899-12-30 16:54:09.000;16;16;M;Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon;The Classic Deluxe Pizza
+92;37;ital_supr_l;1;00:00.0;1899-12-30 16:56:09.000;20.75;20.75;L;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;The Italian Supreme Pizza
+93;37;mexicana_l;1;00:00.0;1899-12-30 16:56:09.000;20.25;20.25;L;Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic;The Mexicana Pizza
+94;38;hawaiian_s;1;00:00.0;1899-12-30 17:03:00.000;10.5;10.5;S;Sliced Ham, Pineapple, Mozzarella Cheese;The Hawaiian Pizza
+95;38;ital_cpcllo_l;1;00:00.0;1899-12-30 17:03:00.000;20.5;20.5;L;Capocollo, Red Peppers, Tomatoes, Goat Cheese, Garlic, Oregano;The Italian Capocollo Pizza
+96;39;ital_supr_l;1;00:00.0;1899-12-30 17:07:23.000;20.75;20.75;L;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;The Italian Supreme Pizza
+97;40;four_cheese_l;1;00:00.0;1899-12-30 17:14:36.000;17.95;17.95;L;Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic;The Four Cheese Pizza
+98;40;southw_ckn_s;1;00:00.0;1899-12-30 17:14:36.000;12.75;12.75;S;Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce;The Southwest Chicken Pizza
+99;41;four_cheese_m;1;00:00.0;1899-12-30 17:15:20.000;14.75;14.75;M;Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic;The Four Cheese Pizza
+100;41;green_garden_s;1;00:00.0;1899-12-30 17:15:20.000;12;12;S;Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese;The Green Garden Pizza
+101;42;big_meat_s;1;00:00.0;1899-12-30 17:28:09.000;12;12;S;Bacon, Pepperoni, Italian Sausage, Chorizo Sausage;The Big Meat Pizza
+102;42;five_cheese_l;1;00:00.0;1899-12-30 17:28:09.000;18.5;18.5;L;Mozzarella Cheese, Provolone Cheese, Smoked Gouda Cheese, Romano Cheese, Blue Cheese, Garlic;The Five Cheese Pizza
+103;42;mexicana_l;1;00:00.0;1899-12-30 17:28:09.000;20.25;20.25;L;Tomatoes, Red Peppers, Jalapeno Peppers, Red Onions, Cilantro, Corn, Chipotle Sauce, Garlic;The Mexicana Pizza
+104;42;peppr_salami_m;1;00:00.0;1899-12-30 17:28:09.000;16.5;16.5;M;Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic;The Pepper Salami Pizza
+105;43;ckn_alfredo_m;1;00:00.0;1899-12-30 17:38:34.000;16.75;16.75;M;Chicken, Red Onions, Red Peppers, Mushrooms, Asiago Cheese, Alfredo Sauce;The Chicken Alfredo Pizza
+106;43;ital_supr_m;1;00:00.0;1899-12-30 17:38:34.000;16.5;16.5;M;Calabrese Salami, Capocollo, Tomatoes, Red Onions, Green Olives, Garlic;The Italian Supreme Pizza
+107;43;peppr_salami_l;1;00:00.0;1899-12-30 17:38:34.000;20.75;20.75;L;Genoa Salami, Capocollo, Pepperoni, Tomatoes, Asiago Cheese, Garlic;The Pepper Salami Pizza
+108;44;spin_pesto_s;1;00:00.0;1899-12-30 17:54:20.000;12.5;12.5;S;Spinach, Artichokes, Tomatoes, Sun-dried Tomatoes, Garlic, Pesto Sauce;The Spinach Pesto Pizza
+109;45;four_cheese_l;1;00:00.0;1899-12-30 17:55:48.000;17.95;17.95;L;Ricotta Cheese, Gorgonzola Piccante Cheese, Mozzarella Cheese, Parmigiano Reggiano Cheese, Garlic;The Four Cheese Pizza
+110;45;hawaiian_s;1;00:00.0;1899-12-30 17:55:48.000;10.5;10.5;S;Sliced Ham, Pineapple, Mozzarella Cheese;The Hawaiian Pizza
+111;45;thai_ckn_m;1;00:00.0;1899-12-30 17:55:48.000;16.75;16.75;M;Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce;The Thai Chicken Pizza
+112;46;ckn_pesto_l;1;00:00.0;1899-12-30 18:25:51.000;20.75;20.75;L;Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce;The Chicken Pesto Pizza
+113;46;classic_dlx_l;1;00:00.0;1899-12-30 18:25:51.000;20.5;20.5;L;Pepperoni, Mushrooms, Red Onions, Red Peppers, Bacon;The Classic Deluxe Pizza
+114;46;thai_ckn_m;1;00:00.0;1899-12-30 18:25:51.000;16.75;16.75;M;Chicken, Pineapple, Tomatoes, Red Peppers, Thai Sweet Chilli Sauce;The Thai Chicken Pizza
+115;47;southw_ckn_l;1;00:00.0;1899-12-30 18:26:34.000;20.75;20.75;L;Chicken, Tomatoes, Red Peppers, Red Onions, Jalapeno Peppers, Corn, Cilantro, Chipotle Sauce;The Southwest Chicken Pizza
+116;47;veggie_veg_s;1;00:00.0;1899-12-30 18:26:34.000;12;12;S;Mushrooms, Tomatoes, Red Peppers, Green Peppers, Red Onions, Zucchini, Spinach, Garlic;The Vegetables + Vegetables Pizza
+117;48;ckn_pesto_m;1;00:00.0;1899-12-30 18:26:42.000;16.75;16.75;M;Chicken, Tomatoes, Red Peppers, Spinach, Garlic, Pesto Sauce;The Chicken Pesto Pizza
+118;48;green_garden_s;1;00:00.0;1899-12-30 18:26:42.000;12;12;S;Spinach, Mushrooms, Tomatoes, Green Olives, Feta Cheese;The Green Garden Pizza
+119;48;prsc_argla_l;1;00:00.0;1899-12-30 18:26:42.000;20.75;20.75;L;Prosciutto di San Daniele, Arugula, Mozzarella Cheese;The Prosciutto and Arugula Pizza
+120;48;spicy_ital_l;1;00:00.0;1899-12-30 18:26:42.000;20.75;20.75;L;Capocollo, Tomatoes, Goat Cheese, Artichokes, Peperoncini verdi, Garlic;The Spicy Italian Pizza
+121;49;sicilian_l;1;00:00.0;1899-12-30 18:33:00.000;20.25;20.25;L;Coarse Sicilian Salami, Tomatoes, Green Olives, Luganega Sausage, Onions, Garlic;The Sicilian Pizza
+122;50;the_greek_xl;1;00:00.0;1899-12-30 18:41:01.000;25.5;25.5;XL;Kalamata Olives, Feta Cheese, Tomatoes, Garlic, Beef Chuck Roast, Red Onions;The Greek Pizza
