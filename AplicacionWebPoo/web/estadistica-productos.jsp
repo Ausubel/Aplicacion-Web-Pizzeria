@@ -13,7 +13,7 @@
     String query = "SELECT * FROM pizza";
 %>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -30,12 +30,12 @@
                 <tr>
                     <th>Id pizzas</th>
                     <th>Precio</th>
-                    <th>Tama?o</th>
+                    <th>Tamaño</th>
                 </tr>
                              <%
                 try {
                     Class.forName("com.mysql.jdbc.Driver").newInstance();
-                    connection = DriverManager.getConnection(connectionURL, "root", "intelectus");
+                    connection = DriverManager.getConnection(connectionURL, "root", "1234");
                     statement = connection.createStatement();
                     rs = statement.executeQuery(query);
                     while (rs.next()) {

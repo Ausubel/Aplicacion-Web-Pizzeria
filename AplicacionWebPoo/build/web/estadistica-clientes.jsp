@@ -39,7 +39,7 @@
                              <%
                 try {
                     Class.forName("com.mysql.jdbc.Driver").newInstance();
-                    connection = DriverManager.getConnection(connectionURL, "root", "intelectus");
+                    connection = DriverManager.getConnection(connectionURL, "root", "1234");
                     statement = connection.createStatement();
                     rs = statement.executeQuery(query);
                     while (rs.next()) {

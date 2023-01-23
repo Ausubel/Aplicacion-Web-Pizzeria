@@ -2,26 +2,6 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/usuario/Documents/Java%20App%20Web/Carro/web/compras.jsp</file>
-            <file>file:/C:/Users/usuario/Documents/Java%20App%20Web/Carro/web/carrito.jsp</file>
-            <file>file:/C:/Users/usuario/Documents/Java%20App%20Web/Carro/src/java/controller/Controlador.java</file>
-            <file>file:/C:/Users/usuario/Documents/Java%20App%20Web/Carro/src/java/model/Producto.java</file>
-            <file>file:/C:/Users/usuario/Documents/Java%20App%20Web/Carro/web/imagenes/CAT2-5-11834.jpg</file>
-            <file>file:/C:/Users/usuario/Documents/Java%20App%20Web/Carro/src/java/model/ProductoDAO.java</file>
-            <file>file:/C:/Users/usuario/Documents/Java%20App%20Web/Carro/web/META-INF/context.xml</file>
-            <file>file:/C:/Users/usuario/Documents/Java%20App%20Web/Carro/web/estilos.css</file>
-            <file>file:/C:/Users/usuario/Documents/Java%20App%20Web/Carro/src/java/model/Carrito.java</file>
-            <file>file:/C:/Users/usuario/Documents/Java%20App%20Web/Carro/web/imagenes/wwww.jpg</file>
-            <file>file:/C:/Users/usuario/Documents/Java%20App%20Web/Carro/web/js/funciones.js</file>
-            <file>file:/C:/Users/usuario/Documents/Java%20App%20Web/Carro/web/detalle.jsp</file>
-            <file>file:/C:/Users/usuario/Documents/Java%20App%20Web/Carro/src/java/controller/ControladorIMG.java</file>
-            <file>file:/C:/Users/usuario/Documents/Java%20App%20Web/Carro/web/index.jsp</file>
-            <file>file:/C:/Users/usuario/Documents/Java%20App%20Web/Carro/web/WEB-INF/web.xml</file>
-            <file>file:/C:/Users/usuario/Documents/Java%20App%20Web/Carro/src/conf/MANIFEST.MF</file>
-            <file>file:/C:/Users/usuario/Documents/Java%20App%20Web/Carro/web/imagenes/photo0jpg.jpg</file>
-            <file>file:/C:/Users/usuario/Documents/Java%20App%20Web/Carro/src/java/config/Conexion.java</file>
-            <file>file:/C:/Users/usuario/Documents/Java%20App%20Web/Carro/web/imagenes/pG0dDRAF_400x400.jpg</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

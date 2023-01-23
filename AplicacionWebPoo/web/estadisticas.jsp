@@ -6,7 +6,7 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -74,9 +74,9 @@
 
             <div class="bottom-content">
                 <li class="">
-                    <a href="#">
+                    <a href="login.jsp">
                         <i class='bx bx-log-out icon' ></i>
-                        <span class="text nav-text">Logout</span>
+                        <span class="text nav-text">Salir</span>
                     </a>
                 </li>
 
