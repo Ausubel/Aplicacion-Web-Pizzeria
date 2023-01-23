@@ -73,6 +73,20 @@ CREATE TABLE `orderdetail` (
   CONSTRAINT `fk_orderdetail_order1` FOREIGN KEY (`idOrder`) REFERENCES `order` (`idOrder`),
   CONSTRAINT `fk_orderdetail_pizza1` FOREIGN KEY (`idPizza`) REFERENCES `pizza` (`idPizza`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+-- Procedimientos almacenados
+
+create procedure sp_IsRoot(in email varchar(100),in pass varchar(45))
+select count(1) from user where loginPassword = pass and loginEmail = email and isRoot=1;
+
+-- call sp_IsRoot('master','master')
+
+create procedure sp_IsUser(in email varchar(100),in pass varchar(45))
+select count(1) from user where loginPassword = pass and loginEmail = email;
+
+--call sp_IsUser('master','master');
+
+
 -- TUPLAS---------------------------------
 INSERT INTO `pizza_db`.`pizzasize`
 (`idPizzaSize`,
