@@ -43,11 +43,12 @@ public class Registro extends HttpServlet {
                 usu.setNombre(nombre);
                 usu.setContrasena(password);
                 usu.setCorreo(mail);
+                
                 r = dao.Registrar(usu);
                 if(r){
-                    request.getRequestDispatcher("index.jsp").forward(request, response);
+                    request.getRequestDispatcher("index.html").forward(request, response);
                 }else{
-                    request.getRequestDispatcher("noEncontrado.jsp").forward(request, response);
+                    request.getRequestDispatcher("estadisticas.jsp").forward(request, response);
                 }
             }
         }catch(Exception e){

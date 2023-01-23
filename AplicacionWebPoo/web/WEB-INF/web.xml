@@ -1,12 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
     <servlet>
-        <servlet-name>Login</servlet-name>
-        <servlet-class>controller.LoginServlet</servlet-class>
+        <servlet-name>inicioSesion</servlet-name>
+        <servlet-class>Controller.inicioSesion</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>Registro</servlet-name>
+        <servlet-class>Controller.Registro</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>borrarUsuario</servlet-name>
+        <servlet-class>Controller.borrarUsuario</servlet-class>
     </servlet>
     <servlet-mapping>
-        <servlet-name>Login</servlet-name>
-        <url-pattern>/Login</url-pattern>
+        <servlet-name>inicioSesion</servlet-name>
+        <url-pattern>/inicioSesion</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>Registro</servlet-name>
+        <url-pattern>/Registro</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>borrarUsuario</servlet-name>
+        <url-pattern>/borrarUsuario</url-pattern>
     </servlet-mapping>
     <session-config>
         <session-timeout>

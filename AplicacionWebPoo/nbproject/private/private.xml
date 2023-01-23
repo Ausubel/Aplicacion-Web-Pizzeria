@@ -3,7 +3,13 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
+            <file>file:/C:/Users/jcasm/OneDrive/Escritorio/POO2-EXPOSICION/AplicacionWebPoo/src/java/Model/Conexion.java</file>
+            <file>file:/C:/Users/jcasm/OneDrive/Escritorio/POO2-EXPOSICION/AplicacionWebPoo/web/login.jsp</file>
+            <file>file:/C:/Users/jcasm/OneDrive/Escritorio/POO2-EXPOSICION/AplicacionWebPoo/src/java/Controller/borrarUsuario.java</file>
             <file>file:/C:/Users/jcasm/OneDrive/Escritorio/POO2-EXPOSICION/AplicacionWebPoo/src/java/Controller/Registro.java</file>
+            <file>file:/C:/Users/jcasm/OneDrive/Escritorio/POO2-EXPOSICION/AplicacionWebPoo/src/java/Model/Usuario.java</file>
+            <file>file:/C:/Users/jcasm/OneDrive/Escritorio/POO2-EXPOSICION/AplicacionWebPoo/src/java/Controller/inicioSesion.java</file>
+            <file>file:/C:/Users/jcasm/OneDrive/Escritorio/POO2-EXPOSICION/AplicacionWebPoo/src/java/Model/UsuarioDAO.java</file>
         </group>
     </open-files>
 </project-private>

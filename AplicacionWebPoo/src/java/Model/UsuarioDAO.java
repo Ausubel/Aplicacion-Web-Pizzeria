@@ -1,8 +1,6 @@
 
 package Model;
-
-import Model.Conexion;
-import Model.Usuario;
+import java.sql.Connection;
 import java.sql.*;
 
 public class UsuarioDAO {
