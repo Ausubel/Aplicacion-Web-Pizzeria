@@ -1,95 +1,78 @@
 
 CREATE DATABASE pizza_db;
 USE pizza_db;
--- Tablas
-CREATE TABLE IF NOT EXISTS pizzasize (
-  `idPizzaSize` VARCHAR(4) NOT NULL,
-  `pizzaSlices` INT NOT NULL,
-  PRIMARY KEY (`idPizzaSize`));
 
-CREATE TABLE IF NOT EXISTS pizzavariety (
-  `idPizzaVariety` VARCHAR(45) NOT NULL,
-  `namePizzaVariety` VARCHAR(100) NOT NULL,
-  `ingredients` VARCHAR(100) NOT NULL,
-  PRIMARY KEY (`idPizzaVariety`));
-  
-CREATE TABLE IF NOT EXISTS pizza (
-  `idPizza` INT NOT NULL,
-  `namePizza` DOUBLE NOT NULL,
-  `photo` VARCHAR(45) NULL,
-  `unitPrice` VARCHAR(45) NOT NULL,
-  `idPizzaVariety` VARCHAR(45) NOT NULL,
-  `idPizzaSize` VARCHAR(4) NOT NULL,
+CREATE TABLE `pizzasize` (
+  `idPizzaSize` varchar(4) NOT NULL,
+  `pizzaSlices` int NOT NULL,
+  PRIMARY KEY (`idPizzaSize`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `pizzavariety` (
+  `idPizzaVariety` varchar(45) NOT NULL,
+  `namePizzaVariety` varchar(100) NOT NULL,
+  `ingredients` varchar(100) NOT NULL,
+  PRIMARY KEY (`idPizzaVariety`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `pizza` (
+  `idPizza` int NOT NULL,
+  `namePizza` varchar(100) NOT NULL,
+  `photo` longblob NULL,
+  `unitPrice` float NOT NULL,
+  `idPizzaVariety` varchar(100) NOT NULL,
+  `idPizzaSize` varchar(4) NOT NULL,
   PRIMARY KEY (`idPizza`),
-  INDEX `fk_pizza_pizzavariety_idx` (`idPizzaVariety` ASC) VISIBLE,
-  INDEX `fk_pizza_pizzasize1_idx` (`idPizzaSize` ASC) VISIBLE,
-  CONSTRAINT `fk_pizza_pizzavariety`
-    FOREIGN KEY (`idPizzaVariety`)
-    REFERENCES `pizzavariety` (`idPizzaVariety`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
-  CONSTRAINT `fk_pizza_pizzasize1`
-    FOREIGN KEY (`idPizzaSize`)
-    REFERENCES `pizzasize` (`idPizzaSize`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION);
+  KEY `fk_pizza_pizzavariety_idx` (`idPizzaVariety`),
+  KEY `fk_pizza_pizzasize1_idx` (`idPizzaSize`),
+  CONSTRAINT `fk_pizza_pizzasize1` FOREIGN KEY (`idPizzaSize`) REFERENCES `pizzasize` (`idPizzaSize`),
+  CONSTRAINT `fk_pizza_pizzavariety` FOREIGN KEY (`idPizzaVariety`) REFERENCES `pizzavariety` (`idPizzaVariety`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-CREATE TABLE IF NOT EXISTS user (
-  `idUser` INT NOT NULL,
-  `loginEmail` VARCHAR(45) NOT NULL,
-  `loginPassword` VARCHAR(45) NOT NULL,
+
+CREATE TABLE `user` (
+  `idUser` int NOT NULL,
+  `loginEmail` varchar(100) NOT NULL,
+  `loginPassword` varchar(45) NOT NULL,
+  `isRoot` tinyint(1) DEFAULT NULL,
   PRIMARY KEY (`idUser`),
-  UNIQUE INDEX `loginEmail_UNIQUE` (`loginEmail` ASC) VISIBLE);
+  UNIQUE KEY `loginEmail_UNIQUE` (`loginEmail`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-CREATE TABLE IF NOT EXISTS customer (
-  `idCliente` INT NOT NULL,
-  `dni` INT(9) NOT NULL,
-  `nameCustomer` VARCHAR(45) NOT NULL,
-  `lastNameCustomer` VARCHAR(45) NOT NULL,
-  `address` VARCHAR(45) NOT NULL,
-  `idUser` INT NULL,
-  PRIMARY KEY (`idCliente`),
-  INDEX `fk_customer_user1_idx` (`idUser` ASC) VISIBLE,
-  CONSTRAINT `fk_customer_user1`
-    FOREIGN KEY (`idUser`)
-    REFERENCES `user` (`idUser`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION);
 
-CREATE TABLE IF NOT EXISTS `order` (
-  `idOrder` INT NOT NULL,
-  `orderDate` VARCHAR(45) NOT NULL,
-  `amount` DOUBLE NOT NULL,
-  `status` TINYINT(1) NOT NULL,
-  `idCliente` INT NOT NULL,
+CREATE TABLE `customer` (
+  `idCustomer` int NOT NULL,
+  `dni` int NOT NULL,
+  `nameCustomer` varchar(45) NOT NULL,
+  `lastNameCustomer` varchar(45) NOT NULL,
+  `address` varchar(100) NOT NULL,
+  `phone` varchar(20) NOT NULL,
+  `idUser` int DEFAULT NULL,
+  PRIMARY KEY (`idCustomer`),
+  KEY `fk_customer_user1_idx` (`idUser`),
+  CONSTRAINT `fk_customer_user1` FOREIGN KEY (`idUser`) REFERENCES `user` (`idUser`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+CREATE TABLE `order` (
+  `idOrder` int NOT NULL,
+  `orderDate` varchar(45) NOT NULL,
+  `idCustomer` int NOT NULL,
   PRIMARY KEY (`idOrder`),
-  INDEX `fk_order_customer1_idx` (`idCliente` ASC) VISIBLE,
-  CONSTRAINT `fk_order_customer1`
-    FOREIGN KEY (`idCliente`)
-    REFERENCES `customer` (`idCliente`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION);
+  KEY `fk_order_customer1_idx` (`idCustomer`),
+  CONSTRAINT `fk_order_customer1` FOREIGN KEY (`idCustomer`) REFERENCES `customer` (`idCustomer`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-CREATE TABLE IF NOT EXISTS orderdetail (
-  `idOrderDetail` INT NOT NULL,
-  `quantity` INT NOT NULL,
-  `totalPrice` DOUBLE NOT NULL,
-  `idOrder` INT NOT NULL,
-  `idPizza` INT NOT NULL,
+CREATE TABLE `orderdetail` (
+  `idOrderDetail` int NOT NULL,
+  `quantity` int NOT NULL,
+  `totalPrice` double NOT NULL,
+  `idOrder` int NOT NULL,
+  `idPizza` int NOT NULL,
   PRIMARY KEY (`idOrderDetail`),
-  INDEX `fk_orderdetail_order1_idx` (`idOrder` ASC) VISIBLE,
-  INDEX `fk_orderdetail_pizza1_idx` (`idPizza` ASC) VISIBLE,
-  CONSTRAINT `fk_orderdetail_order1`
-    FOREIGN KEY (`idOrder`)
-    REFERENCES `order` (`idOrder`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION,
-  CONSTRAINT `fk_orderdetail_pizza1`
-    FOREIGN KEY (`idPizza`)
-    REFERENCES `pizza` (`idPizza`)
-    ON DELETE NO ACTION
-    ON UPDATE NO ACTION);
-
+  KEY `fk_orderdetail_order1_idx` (`idOrder`),
+  KEY `fk_orderdetail_pizza1_idx` (`idPizza`),
+  CONSTRAINT `fk_orderdetail_order1` FOREIGN KEY (`idOrder`) REFERENCES `order` (`idOrder`),
+  CONSTRAINT `fk_orderdetail_pizza1` FOREIGN KEY (`idPizza`) REFERENCES `pizza` (`idPizza`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 -- TUPLAS---------------------------------
 INSERT INTO `pizza_db`.`pizzasize`
 (`idPizzaSize`,

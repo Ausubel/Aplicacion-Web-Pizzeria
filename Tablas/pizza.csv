@@ -1,92 +1,92 @@
-pizza_id;unit_price;pizza_id;pizza_size;;;;;
-bbq_ckn_l;20.75;bbq_ckn;L;;;;;
-bbq_ckn_m;16.75;bbq_ckn;M;;;;;
-bbq_ckn_s;12.75;bbq_ckn;S;;;;;
-big_meat_s;12;big_meat;S;;;;;
-brie_carre_s;23.65;brie_carre;S;;;;;
-calabrese_l;20.25;calabrese;L;;;;;
-calabrese_m;16.25;calabrese;M;;;;;
-calabrese_s;12.25;calabrese;S;;;;;
-cali_ckn_l;20.75;cali_ckn;L;;;;;
-cali_ckn_m;16.75;cali_ckn;M;;;;;
-cali_ckn_s;12.75;cali_ckn;S;;;;;
-ckn_alfredo_l;20.75;ckn_alfredo;L;;;;;
-ckn_alfredo_m;16.75;ckn_alfredo;M;;;;;
-ckn_alfredo_s;12.75;ckn_alfredo;S;;;;;
-ckn_pesto_l;20.75;ckn_pesto;L;;;;;
-ckn_pesto_m;16.75;ckn_pesto;M;;;;;
-ckn_pesto_s;12.75;ckn_pesto;S;;;;;
-classic_dlx_l;20.5;classic_dlx;L;;;;;
-classic_dlx_m;16;classic_dlx;M;;;;;
-classic_dlx_s;12;classic_dlx;S;;;;;
-five_cheese_l;18.5;five_cheese;L;;;;;
-four_cheese_l;17.95;four_cheese;L;;;;;
-four_cheese_m;14.75;four_cheese;M;;;;;
-green_garden_l;20.25;green_garden;L;;;;;
-green_garden_m;16;green_garden;M;;;;;
-green_garden_s;12;green_garden;S;;;;;
-hawaiian_l;16.5;hawaiian;L;;;;;
-hawaiian_m;13.25;hawaiian;M;;;;;
-hawaiian_s;10.5;hawaiian;S;;;;;
-ital_cpcllo_l;20.5;ital_cpcllo;L;;;;;
-ital_cpcllo_m;16;ital_cpcllo;M;;;;;
-ital_cpcllo_s;12;ital_cpcllo;S;;;;;
-ital_supr_l;20.75;ital_supr;L;;;;;
-ital_supr_m;16.5;ital_supr;M;;;;;
-ital_supr_s;12.5;ital_supr;S;;;;;
-ital_veggie_l;21;ital_veggie;L;;;;;
-ital_veggie_m;16.75;ital_veggie;M;;;;;
-ital_veggie_s;12.75;ital_veggie;S;;;;;
-mediterraneo_l;20.25;mediterraneo;L;;;;;
-mediterraneo_m;16;mediterraneo;M;;;;;
-mediterraneo_s;12;mediterraneo;S;;;;;
-mexicana_l;20.25;mexicana;L;;;;;
-mexicana_m;16;mexicana;M;;;;;
-mexicana_s;12;mexicana;S;;;;;
-napolitana_l;20.5;napolitana;L;;;;;
-napolitana_m;16;napolitana;M;;;;;
-napolitana_s;12;napolitana;S;;;;;
-pep_msh_pep_l;17.5;pep_msh_pep;L;;;;;
-pep_msh_pep_m;14.5;pep_msh_pep;M;;;;;
-pep_msh_pep_s;11;pep_msh_pep;S;;;;;
-pepperoni_l;15.25;pepperoni;L;;;;;
-pepperoni_m;12.5;pepperoni;M;;;;;
-pepperoni_s;9.75;pepperoni;S;;;;;
-peppr_salami_l;20.75;peppr_salami;L;;;;;
-peppr_salami_m;16.5;peppr_salami;M;;;;;
-peppr_salami_s;12.5;peppr_salami;S;;;;;
-prsc_argla_l;20.75;prsc_argla;L;;;;;
-prsc_argla_m;16.5;prsc_argla;M;;;;;
-prsc_argla_s;12.5;prsc_argla;S;;;;;
-sicilian_l;20.25;sicilian;L;;;;;
-sicilian_m;16.25;sicilian;M;;;;;
-sicilian_s;12.25;sicilian;S;;;;;
-soppressata_l;20.75;soppressata;L;;;;;
-soppressata_m;16.5;soppressata;M;;;;;
-soppressata_s;12.5;soppressata;S;;;;;
-southw_ckn_l;20.75;southw_ckn;L;;;;;
-southw_ckn_m;16.75;southw_ckn;M;;;;;
-southw_ckn_s;12.75;southw_ckn;S;;;;;
-spicy_ital_l;20.75;spicy_ital;L;;;;;
-spicy_ital_m;16.5;spicy_ital;M;;;;;
-spicy_ital_s;12.5;spicy_ital;S;;;;;
-spin_pesto_l;20.75;spin_pesto;L;;;;;
-spin_pesto_m;16.5;spin_pesto;M;;;;;
-spin_pesto_s;12.5;spin_pesto;S;;;;;
-spinach_fet_l;20.25;spinach_fet;L;;;;;
-spinach_fet_m;16;spinach_fet;M;;;;;
-spinach_fet_s;12;spinach_fet;S;;;;;
-spinach_supr_l;20.75;spinach_supr;L;;;;;
-spinach_supr_m;16.5;spinach_supr;M;;;;;
-spinach_supr_s;12.5;spinach_supr;S;;;;;
-thai_ckn_l;20.75;thai_ckn;L;;;;;
-thai_ckn_m;16.75;thai_ckn;M;;;;;
-thai_ckn_s;12.75;thai_ckn;S;;;;;
-the_greek_l;20.5;the_greek;L;;;;;
-the_greek_m;16;the_greek;M;;;;;
-the_greek_s;12;the_greek;S;;;;;
-the_greek_xl;25.5;the_greek;XL;;;;;
-the_greek_xxl;35.95;the_greek;XXL;;;;;
-veggie_veg_l;20.25;veggie_veg;L;;;;;
-veggie_veg_m;16;veggie_veg;M;;;;;
-veggie_veg_s;12;veggie_veg;S;;;;;
+idPizza;namePizza;photo;unit_price;idPizzaVariety;pizza_size
+1;Large Barbecue Chicken Pizza;;20.75;bbq_ckn;L
+2;Medium Barbecue Chicken Pizza;;16.75;bbq_ckn;M
+3;Small Barbecue Chicken Pizza;;12.75;bbq_ckn;S
+4;Small Big Meat Pizza;;12;big_meat;S
+5;Small Brie Carre Pizza;;23.65;brie_carre;S
+6;Large Calabrese Pizza;;20.25;calabrese;L
+7;Medium Calabrese Pizza;;16.25;calabrese;M
+8;Small Calabrese Pizza;;12.25;calabrese;S
+9;Large California Chicken Pizza;;20.75;cali_ckn;L
+10;Medium California Chicken Pizza;;16.75;cali_ckn;M
+11;Small California Chicken Pizza;;12.75;cali_ckn;S
+12;Large Chicken Alfredo Pizza;;20.75;ckn_alfredo;L
+13;Medium Chicken Alfredo Pizza;;16.75;ckn_alfredo;M
+14;Small Chicken Alfredo Pizza;;12.75;ckn_alfredo;S
+15;Large Chicken Pesto Pizza;;20.75;ckn_pesto;L
+16;Medium Chicken Pesto Pizza;;16.75;ckn_pesto;M
+17;Small Chicken Pesto Pizza;;12.75;ckn_pesto;S
+18;Large Classic Deluxe Pizza;;20.5;classic_dlx;L
+19;Medium Classic Deluxe Pizza;;16;classic_dlx;M
+20;Small Classic Deluxe Pizza;;12;classic_dlx;S
+21;Large Five Cheese Pizza;;18.5;five_cheese;L
+22;Large Four Cheese Pizza;;17.95;four_cheese;L
+23;Medium Four Cheese Pizza;;14.75;four_cheese;M
+24;Large Green Garden Pizza;;20.25;green_garden;L
+25;Medium Green Garden Pizza;;16;green_garden;M
+26;Small Green Garden Pizza;;12;green_garden;S
+27;Large Hawaiian Pizza;;16.5;hawaiian;L
+28;Medium Hawaiian Pizza;;13.25;hawaiian;M
+29;Small Hawaiian Pizza;;10.5;hawaiian;S
+30;Large Italian Capocollo Pizza;;20.5;ital_cpcllo;L
+31;Medium Italian Capocollo Pizza;;16;ital_cpcllo;M
+32;Small Italian Capocollo Pizza;;12;ital_cpcllo;S
+33;Large Italian Supreme Pizza;;20.75;ital_supr;L
+34;Medium Italian Supreme Pizza;;16.5;ital_supr;M
+35;Small Italian Supreme Pizza;;12.5;ital_supr;S
+36;Large Italian Vegetables Pizza;;21;ital_veggie;L
+37;Medium Italian Vegetables Pizza;;16.75;ital_veggie;M
+38;Small Italian Vegetables Pizza;;12.75;ital_veggie;S
+39;Large Mediterranean Pizza;;20.25;mediterraneo;L
+40;Medium Mediterranean Pizza;;16;mediterraneo;M
+41;Small Mediterranean Pizza;;12;mediterraneo;S
+42;Large Mexicana Pizza;;20.25;mexicana;L
+43;Medium Mexicana Pizza;;16;mexicana;M
+44;Small Mexicana Pizza;;12;mexicana;S
+45;Large Napolitana Pizza;;20.5;napolitana;L
+46;Medium Napolitana Pizza;;16;napolitana;M
+47;Small Napolitana Pizza;;12;napolitana;S
+48;Large Pepperoni, Mushroom, and Peppers Pizza;;17.5;pep_msh_pep;L
+49;Medium Pepperoni, Mushroom, and Peppers Pizza;;14.5;pep_msh_pep;M
+50;Small Pepperoni, Mushroom, and Peppers Pizza;;11;pep_msh_pep;S
+51;Large Pepperoni Pizza;;15.25;pepperoni;L
+52;Medium Pepperoni Pizza;;12.5;pepperoni;M
+53;Small Pepperoni Pizza;;9.75;pepperoni;S
+54;Large Pepper Salami Pizza;;20.75;peppr_salami;L
+55;Medium Pepper Salami Pizza;;16.5;peppr_salami;M
+56;Small Pepper Salami Pizza;;12.5;peppr_salami;S
+57;Large Prosciutto and Arugula Pizza;;20.75;prsc_argla;L
+58;Medium Prosciutto and Arugula Pizza;;16.5;prsc_argla;M
+59;Small Prosciutto and Arugula Pizza;;12.5;prsc_argla;S
+60;Large Sicilian Pizza;;20.25;sicilian;L
+61;Medium Sicilian Pizza;;16.25;sicilian;M
+62;Small Sicilian Pizza;;12.25;sicilian;S
+63;Large Soppressata Pizza;;20.75;soppressata;L
+64;Medium Soppressata Pizza;;16.5;soppressata;M
+65;Small Soppressata Pizza;;12.5;soppressata;S
+66;Large Southwest Chicken Pizza;;20.75;southw_ckn;L
+67;Medium Southwest Chicken Pizza;;16.75;southw_ckn;M
+68;Small Southwest Chicken Pizza;;12.75;southw_ckn;S
+69;Large Spicy Italian Pizza;;20.75;spicy_ital;L
+70;Medium Spicy Italian Pizza;;16.5;spicy_ital;M
+71;Small Spicy Italian Pizza;;12.5;spicy_ital;S
+72;Large Spinach Pesto Pizza;;20.75;spin_pesto;L
+73;Medium Spinach Pesto Pizza;;16.5;spin_pesto;M
+74;Small Spinach Pesto Pizza;;12.5;spin_pesto;S
+75;Large Spinach and Feta Pizza;;20.25;spinach_fet;L
+76;Medium Spinach and Feta Pizza;;16;spinach_fet;M
+77;Small Spinach and Feta Pizza;;12;spinach_fet;S
+78;Large Spinach Supreme Pizza;;20.75;spinach_supr;L
+79;Medium Spinach Supreme Pizza;;16.5;spinach_supr;M
+80;Small Spinach Supreme Pizza;;12.5;spinach_supr;S
+81;Large Thai Chicken Pizza;;20.75;thai_ckn;L
+82;Medium Thai Chicken Pizza;;16.75;thai_ckn;M
+83;Small Thai Chicken Pizza;;12.75;thai_ckn;S
+84;Large Greek Pizza;;20.5;the_greek;L
+85;Medium Greek Pizza;;16;the_greek;M
+86;Small Greek Pizza;;12;the_greek;S
+87;Extra Large Greek Pizza;;25.5;the_greek;XL
+88;Extra Extra Large Greek Pizza;;35.95;the_greek;XXL
+89;Large Vegetables + Vegetables Pizza;;20.25;veggie_veg;L
+90;Medium Vegetables + Vegetables Pizza;;16;veggie_veg;M
+91;Small Vegetables + Vegetables Pizza;;12;veggie_veg;S
