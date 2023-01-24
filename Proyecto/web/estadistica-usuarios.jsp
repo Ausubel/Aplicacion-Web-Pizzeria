@@ -1,11 +1,8 @@
 <%-- 
-    Document   : estadistica-clientes
-    Created on : 15 ene. 2023, 11:07:23
+    Document   : estadistica-productos
+    Created on : 15 ene. 2023, 11:07:45
     Author     : jcasm
 --%>
-
-<%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
 <%@page import="java.sql.*"%>
 <%@page import="com.mysql.jdbc.Driver"%>
 <%
@@ -13,10 +10,10 @@
     Connection connection = null;
     ResultSet rs;
     Statement statement = null;
-    String query = "SELECT * FROM user";
+    String query = "select* from customer";
 %>
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -28,12 +25,15 @@
 <body>
     <div class="container">
         <table class="table">
-            <caption>Usuarios</caption>
+            <caption >Clientes</caption>
             <thead>
                 <tr>
-                    <th>Id cliente</th>
-                    <th>Email</th>
-                    <th>Contraseña</th>
+                    <th>Id </th>
+                    <th>Dni</th>
+                    <th>Nombre</th>
+                    <th>Apellido</th>
+                    <th>Direccion</th>
+                    <th>Celular</th>
                 </tr>
                              <%
                 try {
@@ -47,10 +47,12 @@
 
             <tbody>
                 <tr>
-                    <td><%=rs.getString("idUser")%></td>
-
-                    <td><%=rs.getString("loginEmail")%></td>
-                    <td><%=rs.getString("loginpassword")%></td>
+                    <td><%=rs.getString("idCustomer")%></td>
+                    <td><%=rs.getString("dni")%></td>
+                    <td><%=rs.getString("nameCustomer")%></td>
+                    <td><%=rs.getString("lastNameCustomer")%></td>
+                    <td><%=rs.getString("address")%></td>
+                    <td><%=rs.getString("phone")%></td>
                 </tr>
 
                  <%
@@ -64,3 +66,4 @@
     </div>
 </body>
 </html>
+

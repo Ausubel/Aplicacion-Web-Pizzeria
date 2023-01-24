@@ -10,7 +10,7 @@
     Connection connection = null;
     ResultSet rs;
     Statement statement = null;
-    String query = "SELECT * FROM pizza";
+    String query = "select p.idPizza,p.namePizza,p.unitPrice,pd.pizzaSlices from pizza p inner join pizzasize pd on pd.idPizzasize=p.idPizzasize order by idPizza";
 %>
 <!DOCTYPE html>
 <html lang="es">
@@ -29,8 +29,9 @@
             <thead>
                 <tr>
                     <th>Id pizzas</th>
+                    <th>Pizza</th>
                     <th>Precio</th>
-                    <th>Tamaño</th>
+                    <th>Porciones</th>
                 </tr>
                              <%
                 try {
@@ -45,8 +46,9 @@
             <tbody>
                 <tr>
                     <td><%=rs.getString("idPizza")%></td>
+                    <td><%=rs.getString("namepizza")%></td>
                     <td><%=rs.getString("unitPrice")%></td>
-                    <td><%=rs.getString("idPizzaSize")%></td>
+                    <td><%=rs.getString("pizzaSlices")%></td>
                 </tr>
 
                  <%
