@@ -22,7 +22,7 @@ public class inicioSesion extends HttpServlet {
         
         Usuario usu = new Usuario();
         
-        boolean r;
+        int r;
         
         try{
             String accion = request.getParameter("btningresar");
@@ -35,9 +35,11 @@ public class inicioSesion extends HttpServlet {
                 usu.setLoginPassword(loginPassword);
                 
                 r = dao.inicioSesion(usu);
-                
-                if(r){
+                if(r>=0){
                     //request.setAttribute("nombre", usu.getNameCustomer());
+                    if (r==2) {
+                        request.getRequestDispatcher("estadisticas.jsp").forward(request, response);// USUARIO ROOT
+                    }
                     request.getRequestDispatcher("index.html").forward(request, response);// USUARIO NORMAL
                 }else{
                     request.getRequestDispatcher("noEncontrado.jsp").forward(request, response); // FALLO
