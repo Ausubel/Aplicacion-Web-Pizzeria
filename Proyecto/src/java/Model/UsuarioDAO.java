@@ -5,26 +5,34 @@ import java.sql.*;
 
 public class UsuarioDAO {
     
-    public boolean Registrar(Usuario usu){
-        Connection con;
-        Conexion cn = new Conexion();
-        Statement st;
-        try{
-            String sqlInsertUser = "insert into `pizza_db`.`user` (`loginEmail`,`loginPassword`,`isRoot`) VALUES ('"+usu.getLoginEmail()+"','"+usu.getLoginPassword()+"',0)";
-            String sqlInsertCustomer = "insert into `pizza_db`.`customer`(`dni`,`nameCustomer`,`lastNameCustomer`,`address`,`phone`,`idUser`)VALUES("+usu.getDni()+",'"+usu.getNameCustomer()+"','"+usu.getLastNameCustomer()+"','"+usu.getAddress()+"','"+usu.getPhone()+"'";
-            String sqlUpdateFK = "update customer set idUser=(select count(1) from user) where idCustomer=(select count(1) from customer)+1";
-            con = cn.getConnection();
-            st = con.createStatement();
-            st.execute(sqlInsertUser);
-            st.execute(sqlInsertCustomer);
-            st.execute(sqlUpdateFK);
-            con.close();
-            return true;
-        }catch(SQLException e){
-            System.out.println("Error:" + e);
-            return false;
-        }
+public boolean Registrar(Usuario usu){
+    Connection con;
+    Conexion cn = new Conexion();
+    try{
+        con = cn.getConnection();
+        String sql1 = "insert into `pizza_db`.`user` (`loginEmail`,`loginPassword`) VALUES (?,?)";
+        PreparedStatement ps1 = con.prepareStatement(sql1);
+        ps1.setString(1, usu.getLoginEmail());
+        ps1.setString(2, usu.getLoginPassword());
+        ps1.executeUpdate();
+        
+        String sql2 = "insert into `pizza_db`.`customer`(`dni`,`nameCustomer`,`lastNameCustomer`,`address`,`phone`,idUser) VALUES (?,?,?,?,?,(SELECT MAX(idUser) FROM user))";
+        PreparedStatement ps2 = con.prepareStatement(sql2);
+        ps2.setString(1, Integer.parseInt(usu.getDni()));
+        ps2.setString(2, usu.getNameCustomer());
+        ps2.setString(3, usu.getLastNameCustomer());
+        ps2.setString(4, usu.getAddress());
+        ps2.setString(5, usu.getPhone());
+        ps2.executeUpdate();
+        
+        con.close();
+        return true;
+    }catch(SQLException e){
+        System.out.println("Error:" + e);
+        return false;
     }
+}
+
     public boolean inicioSesion(Usuario usu){
         Connection con;
         Conexion cn = new Conexion();

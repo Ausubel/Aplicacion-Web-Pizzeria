@@ -147,7 +147,7 @@
         <div class="container">
             <div class="title">Registraste</div>
             <div class="content">
-                <form action="#">
+                <form action="Registro">
                     <div class="user-details">
                         <div class="input-box">
                             <span class="details">Nombre</span>
@@ -177,9 +177,7 @@
                             <span class="details">Password</span>
                             <input type="password" placeholder="Ingresa tu Contraseña" name="txtpassword" required>
                         </div>
-                    </div>
-
-                    
+                    </div>                    
                     <div class="button">
                         <input type="submit" value="Registro" name="btnguardar">
                     </div>

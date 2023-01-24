@@ -42,7 +42,9 @@ public class Registro extends HttpServlet {
                 usu.setLoginEmail(request.getParameter("txtmail"));
                 usu.setPhone(request.getParameter("txtcelular"));
                 usu.setLoginPassword(request.getParameter("txtpassword"));
+                
                 r = dao.Registrar(usu);
+                
                 if(r){
                     request.getRequestDispatcher("login.jsp").forward(request, response);
                 }else{

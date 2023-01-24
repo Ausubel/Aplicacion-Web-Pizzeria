@@ -115,5 +115,6 @@ VALUES
 ('XXL',24);
 
 INSERT INTO `pizza_db`.`user`(`loginEmail`,`loginPassword`,`isRoot`) VALUES ('master@gmail.com','master',1),('slave@gmail.com','slave',0);
+-- Despues de insaertar en la tabla pizzasize, se obtienen los valores de las columnas de la tabla pizzasize
 update customer set idUser=1 where idCustomer=12;
 update customer set idUser=2 where idCustomer=28;
