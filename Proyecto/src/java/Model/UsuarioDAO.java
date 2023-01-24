@@ -18,7 +18,7 @@ public boolean Registrar(Usuario usu){
         
         String sql2 = "insert into `pizza_db`.`customer`(`dni`,`nameCustomer`,`lastNameCustomer`,`address`,`phone`,idUser) VALUES (?,?,?,?,?,(SELECT MAX(idUser) FROM user))";
         PreparedStatement ps2 = con.prepareStatement(sql2);
-        ps2.setString(1, Integer.parseInt(usu.getDni()));
+        ps2.setString(1, String.valueOf(usu.getDni()));
         ps2.setString(2, usu.getNameCustomer());
         ps2.setString(3, usu.getLastNameCustomer());
         ps2.setString(4, usu.getAddress());
