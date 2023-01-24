@@ -29,18 +29,12 @@
                         <i class='bx bxl-facebook-circle'></i>
                     </div>
                 </div>
-                <p class="cuenta-gratis">¿Aun no tienes una cuenta?</p>
+                <p class="cuenta-gratis"> <a href="registro.jsp"> ¿Aun no tienes una cuenta?</a> </p>
                 <input type="text"  name="txtcuenta" id="txtcuenta" placeholder="Nombre" >
                 <input type="password" name="txtpassword" id="txtpassword" placeholder="Contraseña">
                 <input type="submit" value="Ingresar" name="btningresar" >
             </form>
-            <div class="welcome-back">
-                <div class="message">
-                    <h2>Bienvenido de nuevo</h2>
-                    <p>Si aun no tienes una cuenta por favor registrese aqui</p>
-                    <button class="sign-in-btn">Registrarse</button>
-                </div>
-            </div>
+
         </div>
 
         <%--ESTO ES EL REGISTRO --%>
@@ -52,27 +46,6 @@
                     <button class="sign-up-btn">Iniciar Sesion</button>
                 </div>
             </div>
-            <form class="formulario" action="Registro">
-                <h2 class="create-account">Crear una cuenta</h2>
-                <div class="iconos">
-                    <div class="border-icon">
-                        <i class='bx bxl-instagram'></i>
-                    </div>
-                    <div class="border-icon">
-                        <i class='bx bxl-google'></i>
-                    </div>
-                    <div class="border-icon">
-                        <i class='bx bxl-facebook-circle'></i>
-                    </div>
-                </div>
-                <p class="cuenta-gratis">Crear una cuenta gratis</p>
-                <input type="text" placeholder="Nombre" name="txtnombre">
-                <input type="text" placeholder="Cuenta"  name="txtcuenta">
-                <input type="email" placeholder="Email"  name="txtmail">
-                <input type="password" placeholder="Contraseña" name="txtpassword">
-                <input type="submit" value="Registro" name="btnguardar">
-            </form>
-
         </div>
         <script src="script.js"></script>
     </body>
