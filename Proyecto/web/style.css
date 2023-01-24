@@ -4,7 +4,10 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
-
+a{
+    color: white;
+    text-decoration: none;
+}
 body {
     height: 100vh;
     display: flex;
@@ -115,7 +118,7 @@ body {
     color: white;
 }
 
-.formulario input[type="button"] {
+.formulario input[type="submit"] {
     width: 60%;
     margin: auto;
     border: solid thin white;

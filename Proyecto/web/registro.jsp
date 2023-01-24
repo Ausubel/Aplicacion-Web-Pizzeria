@@ -145,7 +145,7 @@
     </head>
     <body>
         <div class="container">
-            <div class="title">Registration</div>
+            <div class="title">Registraste</div>
             <div class="content">
                 <form action="#">
                     <div class="user-details">
