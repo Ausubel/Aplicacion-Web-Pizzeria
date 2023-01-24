@@ -63,11 +63,16 @@
 
                     <li class="nav-link">
                         <a href="estadistica-clientes.jsp" target="frame-estadistica">
-                            <i class='bx bxs-user-detail icon' ></i>
+                            <i class='bx bx-user icon' ></i>
+                            <span class="text nav-text">Usuarios</span>
+                        </a>
+                    </li>
+                     <li class="nav-link">
+                        <a href="estadistica-usuarios.jsp" target="frame-estadistica">
+                            <i class='bx bx-list-ul icon'></i>
                             <span class="text nav-text">Clientes</span>
                         </a>
                     </li>
-
 
                 </ul>
             </div>
