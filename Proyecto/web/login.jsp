@@ -16,7 +16,7 @@
     <body>
         <%--ESTO ES EL INCIAR SESION --%>
         <div class="container-form sign-in">
-            <form class="formulario" action="inicioSesion">
+            <form class="formulario" action="inicioSesion" method="post">
                 <h2 class="create-account">Iniciar Sesion</h2>
                 <div class="iconos">
                     <div class="border-icon">

@@ -5,6 +5,7 @@ public class Usuario {
     // Columnas User / LOGIN
     private String loginEmail;
     private String loginPassword;
+    
     // Columnas Customer
     private int dni;
     private String nameCustomer;

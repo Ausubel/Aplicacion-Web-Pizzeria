@@ -37,9 +37,8 @@ public class inicioSesion extends HttpServlet {
                 r = dao.inicioSesion(usu);
                 
                 if(r>0){
-                    //request.setAttribute("nombre", usu.getNameCustomer());
                     if (r==1) {
-                        request.getRequestDispatcher("index.html").forward(request, response);// USUARIO NORMAL
+                        request.getRequestDispatcher("index.html?name"+usu.getNameCustomer()).forward(request, response)   ;// USUARIO NORMAL
                     }
                     if (r==2) {
                         request.getRequestDispatcher("estadisticas.jsp").forward(request, response);// USUARIO ROOT

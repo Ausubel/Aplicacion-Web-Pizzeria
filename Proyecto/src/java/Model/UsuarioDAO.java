@@ -38,6 +38,7 @@ public class UsuarioDAO {
         PreparedStatement ps;
         ResultSet rs;
         int r = 0;
+        
         try {
             String sql = "select u.loginEmail, u.loginPassword, c.dni, c.nameCustomer, c.lastNameCustomer, c.address, c.phone, u.isRoot from user u inner join customer c on u.idUser=c.idUser where u.loginEmail=? and u.loginPassword=?";
             con = cn.getConnection();

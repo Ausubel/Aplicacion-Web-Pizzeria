@@ -35,6 +35,7 @@ public class Registro extends HttpServlet {
         try{
             String accion = request.getParameter("btnguardar");
             if(accion.equals("Registro")){
+                
                 usu.setNameCustomer(request.getParameter("txtnombre"));
                 usu.setLastNameCustomer(request.getParameter("txtapellido"));
                 usu.setDni(Integer.parseInt(request.getParameter("txtdni")));
