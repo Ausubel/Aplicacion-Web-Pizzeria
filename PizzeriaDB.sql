@@ -34,7 +34,7 @@ CREATE TABLE `user` (
   `idUser` int NOT NULL AUTO_INCREMENT,
   `loginEmail` varchar(100) NOT NULL,
   `loginPassword` varchar(45) NOT NULL,
-  `isRoot` tinyint(1) DEFAULT NULL,
+  `isRoot` tinyint(1) DEFAULT 0,
   PRIMARY KEY (`idUser`),
   UNIQUE KEY `loginEmail_UNIQUE` (`loginEmail`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
@@ -116,5 +116,5 @@ VALUES
 
 INSERT INTO `pizza_db`.`user`(`loginEmail`,`loginPassword`,`isRoot`) VALUES ('master@gmail.com','master',1),('slave@gmail.com','slave',0);
 -- Despues de insaertar en la tabla pizzasize, se obtienen los valores de las columnas de la tabla pizzasize
-update customer set idUser=1 where idCustomer=12;
-update customer set idUser=2 where idCustomer=28;
+-- update customer set idUser=1 where idCustomer=12;
+-- update customer set idUser=2 where idCustomer=28;
