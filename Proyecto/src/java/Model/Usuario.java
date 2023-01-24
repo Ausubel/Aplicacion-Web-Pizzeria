@@ -1,52 +1,84 @@
-
 package Model;
 
 public class Usuario {
-    private String cuenta;
-    private String nombre;
-    private String contrasena;
-    private String correo;
+
+    // Columnas User
+    private String loginEmail;
+    private String loginPassword;
+    // Columnas Customer
+    private int dni;
+    private String nameCustomer;
+    private String lastNameCustomer;
+    private String address;
+    private String phone;
 
     public Usuario() {
     }
 
-    public Usuario(String cuenta, String nombre, String contrasena, String correo) {
-        this.cuenta = cuenta;
-        this.nombre = nombre;
-        this.contrasena = contrasena;
-        this.correo = correo;
+    public Usuario(String loginEmail, String loginPassword, int dni, String nameCustomer, String lastNameCustomer, String address, String phone) {
+        this.loginEmail = loginEmail;
+        this.loginPassword = loginPassword;
+        this.dni = dni;
+        this.nameCustomer = nameCustomer;
+        this.lastNameCustomer = lastNameCustomer;
+        this.address = address;
+        this.phone = phone;
     }
 
-    public String getCuenta() {
-        return cuenta;
+    public String getLoginEmail() {
+        return loginEmail;
     }
 
-    public void setCuenta(String cuenta) {
-        this.cuenta = cuenta;
+    public void setLoginEmail(String loginEmail) {
+        this.loginEmail = loginEmail;
     }
 
-    public String getNombre() {
-        return nombre;
+    public String getLoginPassword() {
+        return loginPassword;
     }
 
-    public void setNombre(String nombre) {
-        this.nombre = nombre;
+    public void setLoginPassword(String loginPassword) {
+        this.loginPassword = loginPassword;
     }
 
-    public String getContrasena() {
-        return contrasena;
+    public int getDni() {
+        return dni;
     }
 
-    public void setContrasena(String contrasena) {
-        this.contrasena = contrasena;
+    public void setDni(int dni) {
+        this.dni = dni;
     }
 
-    public String getCorreo() {
-        return correo;
+    public String getNameCustomer() {
+        return nameCustomer;
     }
 
-    public void setCorreo(String correo) {
-        this.correo = correo;
+    public void setNameCustomer(String nameCustomer) {
+        this.nameCustomer = nameCustomer;
+    }
+
+    public String getLastNameCustomer() {
+        return lastNameCustomer;
+    }
+
+    public void setLastNameCustomer(String lastNameCustomer) {
+        this.lastNameCustomer = lastNameCustomer;
+    }
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getPhone() {
+        return phone;
+    }
+
+    public void setPhone(String phone) {
+        this.phone = phone;
     }
     
 }

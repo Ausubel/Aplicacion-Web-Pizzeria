@@ -30,7 +30,7 @@
                     </div>
                 </div>
                 <p class="cuenta-gratis">¿Aun no tienes una cuenta?</p>
-                <input type="text"  name="txtcuenta" id="txtcuenta" placeholder="Nombre" >
+                <input type="text"  name="txtcuenta" id="txtcuenta" placeholder="Mail" >
                 <input type="password" name="txtpassword" id="txtpassword" placeholder="Contraseña">
                 <input type="submit" value="Ingresar" name="btningresar" >
             </form>

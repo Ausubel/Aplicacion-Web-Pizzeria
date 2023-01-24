@@ -10,7 +10,8 @@ public class UsuarioDAO {
         Conexion cn = new Conexion();
         Statement st;
         try{
-            String sql = "INSERT INTO USUARIO VALUES('" + usu.getCuenta() + "', '" + usu.getNombre() + "', '" + usu.getContrasena() + "', '" + usu.getCorreo() + "')";
+           //String sql = "INSERT INTO USUARIO VALUES('" + usu.getCuenta() + "', '" + usu.getNombre() + "', '" + usu.getContrasena() + "', '" + usu.getCorreo() + "')";
+            String sql = "";
             con = cn.getConnection();
             st = con.createStatement();
             st.execute(sql);
@@ -28,6 +29,7 @@ public class UsuarioDAO {
         ResultSet rs;
         int r = 0;
         try{
+            String sql = "call sp_IsUser('master@gmail.com','master');";
             String sql = "SELECT * FROM USUARIO WHERE CUENTA=? AND PASSWORD=?";
             con = cn.getConnection();
             ps = con.prepareStatement(sql);
@@ -43,23 +45,6 @@ public class UsuarioDAO {
             }
             con.close();
             return r == 1;
-        }catch(Exception e){
-            System.out.println("Error:" + e);
-            return false;
-        }
-    }
-    public boolean Borrar(Usuario usu){
-        Connection con;
-        Conexion cn = new Conexion();
-        PreparedStatement ps;
-        try{
-            String sql = "DELETE FROM USUARIO WHERE CUENTA=? AND PASSWORD=?";
-            con = cn.getConnection();
-            ps = con.prepareStatement(sql);
-            ps.setString(1, usu.getCuenta());
-            ps.setString(2, usu.getContrasena());
-            ps.execute();
-            return true;
         }catch(Exception e){
             System.out.println("Error:" + e);
             return false;

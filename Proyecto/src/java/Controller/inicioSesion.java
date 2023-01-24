@@ -17,24 +17,30 @@ public class inicioSesion extends HttpServlet {
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         response.setContentType("text/html;charset=UTF-8");
+        
         UsuarioDAO dao = new UsuarioDAO();
+        
         Usuario usu = new Usuario();
+        
         boolean r;
+        
         try{
             String accion = request.getParameter("btningresar");
             if(accion.equals("Ingresar")){
-                String cuenta = request.getParameter("txtcuenta");
-                String password = request.getParameter("txtpassword");
-                System.out.println(cuenta);
-                System.out.println(password);
-                usu.setCuenta(cuenta);
-                usu.setContrasena(password);
+                
+                String loginEmail = request.getParameter("txtcuenta");
+                String loginPassword = request.getParameter("txtpassword");
+                
+                usu.setLoginEmail(loginEmail);
+                usu.setLoginPassword(loginPassword);
+                
                 r = dao.inicioSesion(usu);
+                
                 if(r){
-                    request.setAttribute("nombre", usu.getNombre());
-                    request.getRequestDispatcher("index.html").forward(request, response);
+                    request.setAttribute("nombre", usu.getNameCustomer());
+                    request.getRequestDispatcher("index.html").forward(request, response);// USUARIO NORMAL
                 }else{
-                    request.getRequestDispatcher("noEncontrado.jsp").forward(request, response);
+                    request.getRequestDispatcher("noEncontrado.jsp").forward(request, response); // FALLO
                 }
             }            
         }catch(IOException | ServletException e){
