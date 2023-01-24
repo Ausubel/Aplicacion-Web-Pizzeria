@@ -4,52 +4,34 @@
  */
 package Controller;
 
-import Model.Usuario;
-import Model.UsuarioDAO;
 import java.io.IOException;
+import java.io.PrintWriter;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-public class inicioSesion extends HttpServlet {
+/**
+ *
+ * @author JAMT
+ */
+public class Controlador extends HttpServlet {
 
     protected void processRequest(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
-        response.setContentType("text/html;charset=UTF-8");
-        
-        UsuarioDAO dao = new UsuarioDAO();
-        
-        Usuario usu = new Usuario();
-        
-        int r;
-        
-        try{
-            String accion = request.getParameter("btningresar");
-            if(accion.equals("Ingresar")){
-                
-                String loginEmail = request.getParameter("txtcuenta");
-                String loginPassword = request.getParameter("txtpassword");
-                
-                usu.setLoginEmail(loginEmail);
-                usu.setLoginPassword(loginPassword);
-                
-                r = dao.inicioSesion(usu);
-                
-                if(r>0){
-                    if (r==1) {
-                        request.getRequestDispatcher("sesion.jsp").forward(request, response)   ;// USUARIO NORMAL
-                    }
-                    if (r==2) {
-                        request.getRequestDispatcher("estadisticas.jsp").forward(request, response);// USUARIO ROOT
-                    }                    
-                }else{
-                    request.getRequestDispatcher("noEncontrado.jsp").forward(request, response); // FALLO
-                }
-            }            
-        }catch(IOException | ServletException e){
-            System.out.println("Error:" + e);
+
+        String accion = request.getParameter("btningresar");
+        switch(accion){
+            case "sesion":
+                request.getRequestDispatcher("sesion.jsp").forward(request, response);
+                break;
+            default:
+                throw new AssertionError();
         }
+        
+        
+        
+        
     }
 
     // <editor-fold defaultstate="collapsed" desc="HttpServlet methods. Click on the + sign on the left to edit the code.">
@@ -79,7 +61,6 @@ public class inicioSesion extends HttpServlet {
     protected void doPost(HttpServletRequest request, HttpServletResponse response)
             throws ServletException, IOException {
         processRequest(request, response);
-        System.out.println("Ingresamos al metodo POST de MyServlet");
     }
 
     /**

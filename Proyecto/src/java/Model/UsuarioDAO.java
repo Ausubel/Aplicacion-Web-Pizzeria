@@ -68,5 +68,28 @@ public class UsuarioDAO {
         }
         return r;
     }
+    
+        public Usuario validar(String loginEmail, String password){
+            Conexion cn = new Conexion();
+    Connection con;
+    PreparedStatement ps;
+    ResultSet rs;
+        Usuario usu = new Usuario();
+        String sql = "select * from user where loginEmail=? and loginPassword=?";
+        try{
+            con = cn.getConnection();
+            ps = con.prepareStatement(sql);
+            ps.setString(1, loginEmail);
+            ps.setString(2, password);
+            rs = ps.executeQuery();
+            while(rs.next()){
+                usu.setLoginEmail(rs.getString("loginEmail"));
+                usu.setLoginPassword(rs.getString("loginPassword"));
+            }
+        }catch(Exception e){
+            
+        }
+        return usu;
+    }
 
 }
