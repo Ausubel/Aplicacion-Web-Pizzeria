@@ -35,14 +35,13 @@ public class Registro extends HttpServlet {
         try{
             String accion = request.getParameter("btnguardar");
             if(accion.equals("Registro")){
-                String cuenta = request.getParameter("txtcuenta");
-                String nombre = request.getParameter("txtnombre");
-                String password = request.getParameter("txtpassword");
-                String mail = request.getParameter("txtmail");
-                usu.setCuenta(cuenta);
-                usu.setNombre(nombre);
-                usu.setContrasena(password);
-                usu.setCorreo(mail);
+                usu.setNameCustomer(request.getParameter("txtnombre"));
+                usu.setLastNameCustomer(request.getParameter("txtapellido"));
+                usu.setDni(Integer.parseInt(request.getParameter("txtdni")));
+                usu.setAddress(request.getParameter("txtdireccion"));
+                usu.setLoginEmail(request.getParameter("txtmail"));
+                usu.setPhone(request.getParameter("txtcelular"));
+                usu.setLoginPassword(request.getParameter("txtpassword"));
                 r = dao.Registrar(usu);
                 if(r){
                     request.getRequestDispatcher("login.jsp").forward(request, response);

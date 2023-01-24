@@ -2,7 +2,7 @@ package Model;
 
 public class Usuario {
 
-    // Columnas User
+    // Columnas User / LOGIN
     private String loginEmail;
     private String loginPassword;
     // Columnas Customer

@@ -31,7 +31,7 @@ CREATE TABLE `pizza` (
 
 
 CREATE TABLE `user` (
-  `idUser` int NOT NULL,
+  `idUser` int NOT NULL AUTO_INCREMENT,
   `loginEmail` varchar(100) NOT NULL,
   `loginPassword` varchar(45) NOT NULL,
   `isRoot` tinyint(1) DEFAULT NULL,
@@ -41,7 +41,7 @@ CREATE TABLE `user` (
 
 
 CREATE TABLE `customer` (
-  `idCustomer` int NOT NULL,
+  `idCustomer` int NOT NULL AUTO_INCREMENT,
   `dni` int NOT NULL,
   `nameCustomer` varchar(45) NOT NULL,
   `lastNameCustomer` varchar(45) NOT NULL,
@@ -113,3 +113,7 @@ INSERT INTO `pizza_db`.`pizzasize`
 `pizzaSlices`)
 VALUES
 ('XXL',24);
+
+INSERT INTO `pizza_db`.`user`(`loginEmail`,`loginPassword`,`isRoot`) VALUES ('master@gmail.com','master',1),('slave@gmail.com','slave',0);
+update customer set idUser=1 where idCustomer=12;
+update customer set idUser=2 where idCustomer=28;

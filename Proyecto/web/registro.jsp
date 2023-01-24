@@ -15,10 +15,12 @@
             body{
                 height: 100vh;
                 display: flex;
-                justify-content: center;
                 align-items: center;
-                padding: 10px;
+                justify-content: center;
                 background-image: url(img/4.jpg);
+                background-position: center;
+                background-repeat: no-repeat;
+                background-size: cover;
             }
             .container{
                 max-width: 700px;
@@ -173,7 +175,7 @@
                         </div>
                         <div class="input-box">
                             <span class="details">Password</span>
-                            <input type="text" placeholder="Ingresa tu Contraseña" name="txtpassword" required>
+                            <input type="password" placeholder="Ingresa tu Contraseña" name="txtpassword" required>
                         </div>
                     </div>
 

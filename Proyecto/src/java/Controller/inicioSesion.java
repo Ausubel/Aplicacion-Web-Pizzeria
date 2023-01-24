@@ -37,7 +37,7 @@ public class inicioSesion extends HttpServlet {
                 r = dao.inicioSesion(usu);
                 
                 if(r){
-                    request.setAttribute("nombre", usu.getNameCustomer());
+                    //request.setAttribute("nombre", usu.getNameCustomer());
                     request.getRequestDispatcher("index.html").forward(request, response);// USUARIO NORMAL
                 }else{
                     request.getRequestDispatcher("noEncontrado.jsp").forward(request, response); // FALLO
