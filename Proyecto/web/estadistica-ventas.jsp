@@ -33,13 +33,13 @@
                 <tr>
                     <th>N° Orden</th>
                     <th>Cantidad</th>
-                    <th>Precio</th>
+                    <th>Total</th>
                     <th>Pizza</th>
                 </tr>
                              <%
                 try {
                     Class.forName("com.mysql.jdbc.Driver").newInstance();
-                    connection = DriverManager.getConnection(connectionURL, "root", "1234");
+                    connection = DriverManager.getConnection(connectionURL, "root", "intelectus");
                     statement = connection.createStatement();
                     rs = statement.executeQuery(query);
                     while (rs.next()) {

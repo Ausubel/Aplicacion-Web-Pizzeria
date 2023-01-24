@@ -57,9 +57,9 @@ public class UsuarioDAO {
                 usu.setAddress(rs.getString("address"));
                 usu.setPhone(rs.getString("phone"));
                 root = Integer.parseInt(rs.getString("isRoot"));
-                r += 1;
+                r += 1;//1
             }
-            r=r+root;
+            r=r+root;//1 - 2
             con.close();
         } catch (NumberFormatException | SQLException e) {
             System.out.println("Error:" + e);

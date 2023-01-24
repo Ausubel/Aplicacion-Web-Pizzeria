@@ -35,12 +35,15 @@ public class inicioSesion extends HttpServlet {
                 usu.setLoginPassword(loginPassword);
                 
                 r = dao.inicioSesion(usu);
-                if(r>=0){
+                
+                if(r>0){
                     //request.setAttribute("nombre", usu.getNameCustomer());
+                    if (r==1) {
+                        request.getRequestDispatcher("index.html").forward(request, response);// USUARIO NORMAL
+                    }
                     if (r==2) {
                         request.getRequestDispatcher("estadisticas.jsp").forward(request, response);// USUARIO ROOT
-                    }
-                    request.getRequestDispatcher("index.html").forward(request, response);// USUARIO NORMAL
+                    }                    
                 }else{
                     request.getRequestDispatcher("noEncontrado.jsp").forward(request, response); // FALLO
                 }

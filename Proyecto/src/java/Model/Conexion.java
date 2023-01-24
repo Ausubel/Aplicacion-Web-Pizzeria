@@ -10,7 +10,7 @@ public class Conexion {
     public Connection getConnection(){
         try{
             Class.forName("com.mysql.cj.jdbc.Driver");
-            cn = DriverManager.getConnection("jdbc:mysql://localhost:3306/pizza_db", "root", "1234");
+            cn = DriverManager.getConnection("jdbc:mysql://localhost:3306/pizza_db", "root", "intelectus");
         }catch(ClassNotFoundException | SQLException e){
             System.out.println("Error:" + e);
         }
