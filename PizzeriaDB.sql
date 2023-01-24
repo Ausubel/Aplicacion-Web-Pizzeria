@@ -84,7 +84,7 @@ select count(1) from user where loginPassword = pass and loginEmail = email and 
 create procedure sp_IsUser(in email varchar(100),in pass varchar(45))
 select count(1) from user where loginPassword = pass and loginEmail = email;
 
---call sp_IsUser('master','master');
+-- call sp_IsUser('master','master');
 
 
 -- TUPLAS---------------------------------
