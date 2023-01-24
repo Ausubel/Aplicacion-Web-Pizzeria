@@ -1,8 +1,6 @@
 
 package Model;
 
-import Model.Conexion;
-import Model.Usuario;
 import java.sql.*;
 
 public class UsuarioDAO {
@@ -18,7 +16,7 @@ public class UsuarioDAO {
             st.execute(sql);
             con.close();
             return true;
-        }catch(Exception e){
+        }catch(SQLException e){
             System.out.println("Error:" + e);
             return false;
         }

@@ -45,7 +45,7 @@ public class Registro extends HttpServlet {
                 usu.setCorreo(mail);
                 r = dao.Registrar(usu);
                 if(r){
-                    request.getRequestDispatcher("index.jsp").forward(request, response);
+                    request.getRequestDispatcher("login.jsp").forward(request, response);
                 }else{
                     request.getRequestDispatcher("noEncontrado.jsp").forward(request, response);
                 }
